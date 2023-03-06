@@ -1,4 +1,4 @@
-package fp.videojuegos;
+package fp.cuadros;
 
 public class wery {
 
