@@ -5,8 +5,7 @@ import java.util.List;
 import java.util.Objects;
 
 import fp.utiles.Checkers;
-
-public class Superheroe {
+public class Superheroe implements Comparable<Superheroe> {
 	
 	private String nombreSuperheroe;
 	private String nombreReal;
@@ -17,7 +16,6 @@ public class Superheroe {
 	private Integer puntuajeFuerza;
 	private Integer puntuajeVelocidad;
 	private Integer puntuajeResistencia;
-	private Integer puntuajeCombate;
 	private Posicionamiento posicionamiento;
 	private Raza raza;
 	private Double altura;
@@ -30,7 +28,7 @@ public class Superheroe {
 
 	public Superheroe(String nombreSuperheroe, String nombreReal, Creador creador, LocalDate fechaCreacion,
 			List<String> poderes, Integer puntuajeInteligencia, Integer puntuajeFuerza, Integer puntuajeVelocidad,
-			Integer puntuajeResistencia, Integer puntuajeCombate, Posicionamiento posicionamiento, Raza raza,
+			Integer puntuajeResistencia, Posicionamiento posicionamiento, Raza raza,
 			Double altura, Double peso, Boolean tieneTelepatia, Boolean tieneMagia, Boolean tieneInmortabilidad) {
 		//Restricciones
 		Checkers.check("El nombre no puede estar vacío", nombreSuperheroe.replaceAll(" ", "") != "");
@@ -38,7 +36,6 @@ public class Superheroe {
 		Checkers.check("El puntuaje debe ser mayor o igual que 0 y menor o igual que 100", puntuajeFuerza >= 0 && puntuajeFuerza <= 100);
 		Checkers.check("El puntuaje debe ser mayor o igual que 0 y menor o igual que 100", puntuajeVelocidad >= 0 && puntuajeVelocidad <= 100);
 		Checkers.check("El puntuaje debe ser mayor o igual que 0 y menor o igual que 100", puntuajeResistencia >= 0 && puntuajeResistencia <= 100);
-		Checkers.check("El puntuaje debe ser mayor o igual que 0 y menor o igual que 100", puntuajeCombate >= 0 && puntuajeCombate <= 100);
 
 		//Asignaciones
 		this.nombreSuperheroe = nombreSuperheroe;
@@ -50,7 +47,6 @@ public class Superheroe {
 		this.puntuajeFuerza = puntuajeFuerza;
 		this.puntuajeVelocidad = puntuajeVelocidad;
 		this.puntuajeResistencia = puntuajeResistencia;
-		this.puntuajeCombate = puntuajeCombate;
 		this.posicionamiento = posicionamiento;
 		this.raza = raza;
 		this.altura = altura;
@@ -77,7 +73,6 @@ public class Superheroe {
 		this.puntuajeFuerza = null;
 		this.puntuajeVelocidad = null;
 		this.puntuajeResistencia = null;
-		this.puntuajeCombate = null;
 		this.posicionamiento = posicionamiento;
 		this.raza = raza;
 		this.altura = altura;
@@ -164,16 +159,6 @@ public class Superheroe {
 		this.puntuajeResistencia = puntuajeResistencia;
 	}
 
-	public Integer getPuntuajeCombate() {
-		return puntuajeCombate;
-	}
-
-	public void setPuntuajeCombate(Integer puntuajeCombate) {
-		Checkers.check("El puntuaje debe ser mayor o igual que 0 y menor o igual que 100", puntuajeCombate >= 0 && puntuajeCombate <= 100);
-
-		this.puntuajeCombate = puntuajeCombate;
-	}
-
 	public Posicionamiento getPosicionamiento() {
 		return posicionamiento;
 	}
@@ -218,6 +203,7 @@ public class Superheroe {
 		this.tieneInmortabilidad = tieneInmortabilidad;
 	}
 
+	
 
 	//Representación como cadena
 	@Override
@@ -225,8 +211,7 @@ public class Superheroe {
 		return "Superheroe [nombreSuperheroe=" + nombreSuperheroe + ", nombreReal=" + nombreReal + ", creador="
 				+ creador + ", fechaCreacion=" + fechaCreacion + ", poderes=" + poderes + ", puntuajeInteligencia="
 				+ puntuajeInteligencia + ", puntuajeFuerza=" + puntuajeFuerza + ", puntuajeVelocidad="
-				+ puntuajeVelocidad + ", puntuajeResistencia=" + puntuajeResistencia + ", puntuajeCombate="
-				+ puntuajeCombate + ", posicionamiento=" + posicionamiento + ", raza=" + raza + ", altura=" + altura
+				+ puntuajeVelocidad + ", puntuajeResistencia=" + puntuajeResistencia  + ", posicionamiento=" + posicionamiento + ", raza=" + raza + ", altura=" + altura
 				+ ", peso=" + peso + ", tieneTelepatia=" + tieneTelepatia + ", tieneMagia=" + tieneMagia
 				+ ", tieneInmortabilidad=" + tieneInmortabilidad + "]";
 	}
