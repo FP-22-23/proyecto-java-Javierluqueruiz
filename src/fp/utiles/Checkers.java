@@ -1,4 +1,4 @@
-3rpackage fp.utiles;
+package fp.utiles;
 
 /**
  * @author reinaqu
