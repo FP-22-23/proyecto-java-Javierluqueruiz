@@ -1,4 +1,4 @@
-package fp.heroe;
+package fp.common;
 
 public enum Posicionamiento {
 

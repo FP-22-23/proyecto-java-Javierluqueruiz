@@ -1,4 +1,4 @@
-package fp.heroe;
+package fp.common;
 
 public record PuntuajeMedio(Integer puntuajeInteligencia, Integer puntuajeFuerza, Integer puntuajeVelocidad, Integer puntuajeResistencia) {
 	public Double calcularPuntuajeMedio() {

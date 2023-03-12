@@ -4,6 +4,9 @@ import java.time.LocalDate;
 import java.util.List;
 import java.util.Objects;
 
+import fp.common.Creador;
+import fp.common.Posicionamiento;
+import fp.common.Raza;
 import fp.utiles.Checkers;
 public class Superheroe implements Comparable<Superheroe> {
 	

@@ -4,11 +4,11 @@ import java.time.LocalDate;
 import java.util.LinkedList;
 import java.util.List;
 
-import fp.heroe.Creador;
-import fp.heroe.Posicionamiento;
-import fp.heroe.Raza;
+import fp.common.Creador;
+import fp.common.Posicionamiento;
+import fp.common.PuntuajeMedio;
+import fp.common.Raza;
 import fp.heroe.Superheroe;
-import fp.heroe.PuntuajeMedio;
 
 
 public class SuperheroeTest {
