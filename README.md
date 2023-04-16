@@ -13,7 +13,7 @@ Aquí debes añadir la descripción del dataset y un enunciado del dominio del p
   * **fp.common**: Paquete que contiene los tipos auxiliares del proyecto
   * **fp.utiles**:  Paquete que contiene las clases de utilidad. 
 * **/data**: Contiene el dataset o datasets del proyecto
-    * **\<dataset1.csv\>**: Archivo csv que contiene los datos de los distintos superhéroes
+    * **\<superheroe.csv\>**: Archivo csv que contiene los datos de los distintos superhéroes.
  
 
     
@@ -46,7 +46,7 @@ El dataset usado en este proyecto tiene 16 columnas, 9 se han tomado del dataset
 
 Los tipos que se han implementado en el proyecto son los siguientes:
 
-### Tipo Base - Héroe
+### Tipo Base - Superhéroe
 Representa un superhéroe concreto.
 
 **Propiedades**:
@@ -67,6 +67,7 @@ Representa un superhéroe concreto.
 - _tieneTelepaia_, de tipo \<Boolean\>, consultable y modificable.
 - _tieneMagia_, de tipo \<Boolean\>, consultable y modificable.
 - _tieneImortalidad_, de tipo \<Boolean\>, consultable y modificable.
+- _puntuajeMedio_, de tipo PuntuajeMedio, consultable. Propiedad derivada que calcula la media de las distintas puntuaciones del superhéroe
 
 **Constructores**: 
 
@@ -96,39 +97,40 @@ String nombreSuperheroe, String nombreReal, Creador creador,List<String> poderes
 
 
 
-### Factoría
-Descripción breve de la factoría.
+### Factoría-FactoriaSuperHeroes
+Clase de factoría para construir objetos de tipo Partidas. Contiene varios métodos para parsear los diferentes datos del csv, todos tienen estrcuturas similares.
 
-- _método 1_: Descripción del método 1.
--	_método 2_: Descripción del método 2.
+- Superheroes leerSuperheroes(String rutaFichero)_:Crea un objeto de tipo Superheroes a partir de la información recogida en el archivo csv, cuya ruta se da como parámetro.
 
-### Tipo Contenedor
 
-Descripción breve del tipo contenedor.
+### Tipo Contenedor - Superheroes
+
+Clase contenedora de los objetos de tipo Superheroe.
 
 **Propiedades**:
 
-- _propiedad1_, de tipo \<Tipo1\>, consultable. 
-- _propiedad2_, de tipo \<Tipo2\>, consultable y modificable. 
-- ...
+- _Superheroes_, de tipo Set\<Superheroe\>, consultable. Lista de superheroes,
+
 - 
 **Constructores**: 
 
-- C1: Descripción del constructor 1.
-- C2: Descripción del constructor 2.
+- C1: Constructor por defecto.
+- C2: Constructor con un parámetro de tipo Collection\<Superheroe\>. Crea un objeto de tipo Superheroes con los superheroes incluidos en la colección dada como parámetro.
 - ...
 
-**Restricciones**:
- 
-- R1: Descripción de la restricción 1.
-- R2: Descripción de la restricción 2.
-- ...
-- 
-**Criterio de igualdad**: Describir el criterio de igualdad
+**Criterio de igualdad**: Dos collecciones Superheroes son iguales si lo son sus propiedades Superheroe.
 
-**Criterio de ordenación**: Describir el criterio de ordenación (si lo hay).
 
 **Otras operaciones**:
  
--	_método 1_: Descripción del método 1.
-- ...
+-	_Integer numeroElementos()_: Devuelve el número de elemntos que hay en la colleción superheroes.
+- _void añadirSuperheroe(Superheroe sh)_ : Añade un Superheroe al objeto.
+- _void añadirCollecciónSuperheroes(Set\<Superheroe\> sh)_: Añade un conjunto de Superheroes al objeto.
+- _void eliminarSuperheroe(Superheroe sh)_: Elimina el Superheroe indicado como parámetro del objeto.
+- _Boolean existeSuperheroePosicionamientoRaza(Posicionamiento p, Raza r)_: Devuelve true si existe un Superheroe tal que su propiedad posicionamiento y su propiedad raza conincidan con el posicionamiento y la raza dados como parámetros, respectivamente. De lo contrario, devuelve false.
+- _Double getMediaPuntuajeAño(Integer year):_Devuelve la media del puntuaje medio de los Superhéroes cuyos años de creación coincidan con el año dado como parámetro.
+- _Set\<Superheroe\>_ getSuperheroeCercanosAltura(Double altura, Double d):_Devuelve un conjunto de Superheroes cuya altura esté dentro del intervalo (altura-d, altura+d), siendo altura y d los parámetros.
+- _Map<Creador, Set\<Superheroe\>> getSuperheroePorCreador():_ Devuelve un Map en el que las claves son los distintos valores del enum Creador, y los valores son conjuntos de los Superheroes cuyo valor de la propiedad Creador conincidan con la clave a la que estén asociados.
+
+- _Map<Integer, Long> getNumeroSuperheroePorAño():_ Devuelve un Map en el que las claves son los distintos años de creación de los Superheroes, y los valores son el número de superhéroes cuya fecha de creación coincida con la clave.
+
