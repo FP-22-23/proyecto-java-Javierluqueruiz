@@ -1,12 +1,13 @@
 package fp.heroe.test;
 
+import java.sql.Date;
 import java.time.LocalDate;
 import java.util.LinkedList;
 import java.util.List;
 
 import fp.common.Creador;
 import fp.common.Posicionamiento;
-import fp.common.PuntuajeMedio;
+
 import fp.common.Raza;
 import fp.heroe.Superheroe;
 

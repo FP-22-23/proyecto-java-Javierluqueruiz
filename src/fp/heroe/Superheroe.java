@@ -1,11 +1,14 @@
 package fp.heroe;
 
+import java.sql.Date;
 import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
 import fp.common.Creador;
 import fp.common.Posicionamiento;
+import fp.common.PuntuajeMedio;
 import fp.common.Raza;
 import fp.utiles.Checkers;
 public class Superheroe implements Comparable<Superheroe> {
@@ -26,6 +29,7 @@ public class Superheroe implements Comparable<Superheroe> {
 	private Boolean tieneTelepatia;
 	private Boolean tieneMagia;
 	private Boolean tieneInmortabilidad;
+	private PuntuajeMedio puntuajeMedio;
 
 
 
@@ -45,7 +49,7 @@ public class Superheroe implements Comparable<Superheroe> {
 		this.nombreReal = nombreReal;
 		this.creador = creador;
 		this.fechaCreacion = fechaCreacion;
-		this.poderes = poderes;
+		this.poderes = new ArrayList<String>(poderes);
 		this.puntuajeInteligencia = puntuajeInteligencia;
 		this.puntuajeFuerza = puntuajeFuerza;
 		this.puntuajeVelocidad = puntuajeVelocidad;
@@ -56,7 +60,8 @@ public class Superheroe implements Comparable<Superheroe> {
 		this.peso = peso;
 		this.tieneTelepatia = tieneTelepatia;
 		this.tieneMagia = tieneMagia;
-		this.tieneInmortabilidad = tieneInmortabilidad;
+		this.tieneInmortabilidad = tieneInmortabilidad; 
+		this.puntuajeMedio = new PuntuajeMedio(puntuajeInteligencia, puntuajeFuerza, puntuajeVelocidad, puntuajeResistencia);
 	}
 
 
@@ -70,7 +75,7 @@ public class Superheroe implements Comparable<Superheroe> {
 		this.nombreSuperheroe = nombreSuperheroe;
 		this.nombreReal = nombreReal;
 		this.creador = creador;
-		this.fechaCreacion = LocalDate.now();
+		this.fechaCreacion =LocalDate.now();
 		this.poderes = poderes;
 		this.puntuajeInteligencia =null;
 		this.puntuajeFuerza = null;
@@ -83,6 +88,8 @@ public class Superheroe implements Comparable<Superheroe> {
 		this.tieneTelepatia = null;
 		this.tieneMagia = null;
 		this.tieneInmortabilidad = null;
+		this.puntuajeMedio = null;
+		
 	}
 
 
@@ -90,7 +97,7 @@ public class Superheroe implements Comparable<Superheroe> {
 
 
 
-	//Getters and Setters
+	//Getters and Setter2s
 
 	public String getNombreSuperheroe() {
 		return nombreSuperheroe;
@@ -162,6 +169,11 @@ public class Superheroe implements Comparable<Superheroe> {
 		this.puntuajeResistencia = puntuajeResistencia;
 	}
 
+	public Double getPuntuajeMedio() {
+		return puntuajeMedio.calcularPuntuajeMedio();
+	} 
+	
+	
 	public Posicionamiento getPosicionamiento() {
 		return posicionamiento;
 	}
@@ -214,7 +226,7 @@ public class Superheroe implements Comparable<Superheroe> {
 		return "Superheroe [nombreSuperheroe=" + nombreSuperheroe + ", nombreReal=" + nombreReal + ", creador="
 				+ creador + ", fechaCreacion=" + fechaCreacion + ", poderes=" + poderes + ", puntuajeInteligencia="
 				+ puntuajeInteligencia + ", puntuajeFuerza=" + puntuajeFuerza + ", puntuajeVelocidad="
-				+ puntuajeVelocidad + ", puntuajeResistencia=" + puntuajeResistencia  + ", posicionamiento=" + posicionamiento + ", raza=" + raza + ", altura=" + altura
+				+ puntuajeVelocidad + ", puntuajeResistencia=" + puntuajeResistencia  + ", puntuajeMedio=" + puntuajeMedio + ", posicionamiento=" + posicionamiento + ", raza=" + raza + ", altura=" + altura
 				+ ", peso=" + peso + ", tieneTelepatia=" + tieneTelepatia + ", tieneMagia=" + tieneMagia
 				+ ", tieneInmortabilidad=" + tieneInmortabilidad + "]";
 	}
@@ -240,6 +252,7 @@ public class Superheroe implements Comparable<Superheroe> {
 	}
 
 	//Orden natural
+	
 	public int compareTo(Superheroe o) {
 		int r = this.getCreador().compareTo(o.getCreador());
 		if ( r== 0) {
@@ -255,9 +268,6 @@ public class Superheroe implements Comparable<Superheroe> {
 	}
 	
 
-		
-	
-	
 	
 }
 
