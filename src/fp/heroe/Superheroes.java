@@ -72,7 +72,7 @@ public class Superheroes {
 	
 	//1.Existe
 
-	public Boolean existeSuperheroePosicionamientoRaza(Posicionamiento p, Raza r) {
+	public  Boolean existeSuperheroePosicionamientoRaza(Posicionamiento p, Raza r) {
 		Boolean res = false;
 		
 		for(Superheroe sh:superheroes) {
@@ -112,7 +112,9 @@ public class Superheroes {
 			Set<Superheroe> res = new HashSet<>();
 			
 			for (Superheroe sh: superheroes) {
-				if(sh.getAltura() >= altura + d && sh.getAltura() <= altura - d) {
+				Double min = altura - d;
+				Double max = altura + d;
+				if(sh.getAltura() >= min && sh.getAltura() <= max) {
 					
 					res.add(sh);
 				}	
