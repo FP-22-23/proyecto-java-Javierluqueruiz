@@ -1,10 +1,14 @@
 package fp.heroe;
 
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Objects;
 import java.util.Set;
+import java.util.SortedSet;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import fp.common.Creador;
 import fp.common.Posicionamiento;
@@ -164,9 +168,63 @@ public class Superheroes {
 			}
 			return res;
 		}
+
+		
+		
+		
+	//===============Entrega 3=====================0
+	//Bloque 1
 	
+	//1. Existe (Con Stream)
+		
+		public  Boolean existeSuperheroePosicionamientoRazaStream(Posicionamiento p, Raza r) {
+			return superheroes.stream().allMatch(x -> x.getPosicionamiento().equals(p)
+					&& x.getRaza().equals(r));
+		}
+		
+		
+		
+	//2. Media (Con Stream)
+		public Double getMediaPuntuajeAñoStream(Integer year) {
+
+			return superheroes.stream().filter(x -> Integer.valueOf(x.getFechaCreacion().getYear()).equals(year))
+									   .mapToDouble(x->x.getPuntuajeMedio())
+									   .average()
+									   .orElse(0);
+					
+			
+		}
 	
-	
-	
-	
+		
+	//3. Selección com filtrado (Con Stream)
+		
+		public Set<Superheroe> getSuperheroeCercanosAlturaStream(Double altura, Double d){
+			return superheroes.stream()
+							  .filter(x->x.getAltura() >= altura -d && x.getAltura() <= altura +d)
+							  .collect(Collectors.toSet());
+		}	
+		
+		
+	//4. Máximo con filtrado (Con Stream)
+		
+		public Superheroe getSupeheroeMayorPuntuajeMedioPosicionamiento(Posicionamiento p) {
+			return superheroes.stream()
+					          .filter(x->x.getPosicionamiento().equals(p))
+					          .max(Comparator.comparing(Superheroe::getPuntuajeMedio))
+					          .get();
+		}
+		
+	//5. Selección con filtrado y ordenación (Con Stream)
+		
+		public Set<Superheroe> getNSuperheroesMayorPuntuajeMedioCreador(Creador c, Integer n) {
+			
+			
+			return superheroes.stream()
+					          .filter(x->x.getCreador().equals(c))
+					          .sorted(Comparator.comparing(Superheroe::getPuntuajeMedio))
+					          //.limit(n)
+					          .collect(Collectors.toSet());
+		}
+		
+		
 }

@@ -22,11 +22,11 @@ public class FactoriaSuperHeroes {
 	public static Superheroes leerSuperheroes(String rutaFichero) {
 		Superheroes res = null;
 		try{
-			Set<Superheroe>  ssuperheroes=Files.lines(Paths.get(rutaFichero))
+			Set<Superheroe>  superheroes=Files.lines(Paths.get(rutaFichero))
 							.skip(1)
 							.map(FactoriaSuperHeroes::parsearSuperheroe)
 							.collect(Collectors.toSet());
-		res = new Superheroes(ssuperheroes);
+		res = new Superheroes(superheroes);
 		}catch(IOException e){
 			System.out.println("No se ha encontrado el fichero" + rutaFichero);
 			e.printStackTrace();
@@ -40,10 +40,10 @@ public class FactoriaSuperHeroes {
 	public static Superheroe parsearSuperheroe(String lineaCSV) {
 		
 		String[]trozos = lineaCSV.split(";");
-		//Checkers.check("La Linea debe contener 16 campos", trozos.length == 16);
+		Checkers.check("La Linea debe contener 16 campos", trozos.length == 16);
 		String nombreSuperheroe = trozos[0].trim();
 		String nombreReal = trozos[1].trim();
-		Creador creador = parseaCreador(trozos[2].trim());
+		Creador creador = Creador.valueOf(trozos[2].trim().toUpperCase());
 		LocalDate fechaCreacion = parseaFecha(trozos[3].trim());
 		List<String> poderes = Arrays.asList(trozos[4].trim().split(","));
 		Integer puntuajeInteligencia = Integer.parseInt(trozos[5].trim());
@@ -51,7 +51,8 @@ public class FactoriaSuperHeroes {
 		Integer puntuajeVelocidad = Integer.parseInt(trozos[7].trim());
 		Integer puntuajeResistencia = Integer.parseInt(trozos[8].trim());
 		Posicionamiento posicionamiento = parseaPosicionamiento(trozos[9].trim());
-		Raza raza = parseaRaza(trozos[10].trim().toUpperCase());
+		Raza raza = Raza.valueOf(trozos[10].trim().toUpperCase());
+				//parseaRaza(trozos[10].trim().toUpperCase());
 		Double altura = Double.parseDouble(trozos[11].trim());
 		Double peso = Double.parseDouble(trozos[12].trim());
 		Boolean tieneTelepatia = parseaBooleano(trozos[13].trim());
@@ -79,9 +80,17 @@ public class FactoriaSuperHeroes {
 		Creador res = null;
 		if(cadena != "Marvel Comics" && cadena!= "DC Comics" && cadena != "Shueisha" && cadena != "Dark Horse Comics" && cadena != "Lego") {
 			res = Creador.OTHER;
+		}else if(cadena == "Marvel Comics") {
+			res = Creador.MARVEL_COMICS;
+		}else if(cadena == "DC Comics") {
+			res = Creador.DC_COMICS;
+		}else if(cadena == "Dark Horse Comics") {
+			res = Creador.DARK_HORSE_COMICS;
 		}else {
-			res = Creador.valueOf(cadena);
+			res = Creador.valueOf(cadena.toUpperCase());
 		}
+		
+		
 		return res;
 	}
 	
@@ -89,9 +98,13 @@ public class FactoriaSuperHeroes {
 		Raza res = null;
 		if(cadena != "Alien" && cadena!= "God / Eternal" && cadena != "Human" && cadena != "Meta Human" && cadena != "Mutant") {
 			res = Raza.OTHER;
+		}else if(cadena == "Meta Human") {
+			res = Raza.METAHUMAN;
 		}else {
-			res = Raza.valueOf(cadena);
+			res = Raza.valueOf(cadena.toUpperCase());
 		}
+		
+		
 		return res;
 	}
 	
@@ -111,12 +124,13 @@ public class FactoriaSuperHeroes {
 	}
 	
 	private static Posicionamiento parseaPosicionamiento(String cadena) {
-		Posicionamiento res = Posicionamiento.NEUTRAL;
-		if(cadena =="Good") {
-			res = Posicionamiento.GOOD;
-		}else if(cadena == "Bad") {
-			res = Posicionamiento.BAD;
+		Posicionamiento res = null;
+		if(cadena == "") {
+			res = Posicionamiento.NEUTRAL;
+		}else {
+			res = Posicionamiento.valueOf(cadena.toUpperCase());
 		}
+
 		return res;
 	}
 }

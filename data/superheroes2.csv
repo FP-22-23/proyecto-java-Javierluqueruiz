@@ -1,100 +1,932 @@
-﻿name;real_name;creator;creation_date;superpowers;intelligence_score;strength_score;speed_score;durability_score;alignment;type_race;height ;weight ;has_telepathy;has_magic;has_immortality
-3-D Man;Delroy Garrett, Jr.;Marvel Comics;22/1/82;Super Speed, Super Strength;42;95;51;30;Good;Human;51.87;511.68;0.0;0.0;0.0
-514A (Gotham);Bruce Wayne;DC Comics;2/2/44;Durability, Reflexes, Super Strength;43;57;86;90;Neutral;Other;248.49;846.64;0.0;0.0;0.0
-Aa;Aa;;8/2/67;;40;22;72;78;Neutral;Other;241.3;367.51;0.0;0.0;0.0
-Aaron Cash;Aaron Cash;DC Comics;21/6/90;Weapon-based Powers, Weapons Master;43;66;41;43;Good;Human;51.97;936.67;0.0;0.0;0.0
-Aayla Secura;Aayla Secura;George Lucas;6/7/39;Accelerated Healing, Agility, Astral Projection, Cloaking, Danger Sense;74;95;98;41;Good;Twi'lek;142.36;46.59;0.0;0.0;0.0
-Abe Sapien;Abraham Sapien;;23/3/63;;34;80;7;93;Neutral;Other;63.38;211.56;0.0;1.0;0.0
-Abin Sur;;DC Comics;8/6/87;Lantern Power Ring;77;80;59;71;Good;Ungaran;93.99;654.04;1.0;0.0;0.0
-Abomination;Emil Blonsky;;29/1/73;;87;21;47;61;Neutral;Other;261.96;179.46;0.0;0.0;0.0
-Abra Kadabra (CW);Unknown;DC Comics;9/10/50;Dimensional Travel, Illusions, Intelligence, Intuitive aptitude, Matter Manipulation, Technopath/Cyberpath, Teleportation;76;18;12;47;Bad;Human;224.93;918.43;0.0;0.0;0.0
-Abra Kadabra;Abhararakadhararbarakh;DC Comics;16/5/08;Animation, Astral Projection, Dimensional Travel, Hypnokinesis, Illusions, Immortality, Intelligence, Longevity, Magic, Marksmanship, Matter Manipulation, Possession, Precognition, Probability Manipulation, Stamina, Stealth, Time Manipulation, Time Travel;79;80;15;80;Bad;Human;38.89;326.95;0.0;1.0;1.0
-Abraxas;Abraxas;;15/8/72;;41;89;17;38;Neutral;Other;59.65;332.25;0.0;0.0;0.0
-Absorbing Man (MCU);Carl Creel;Marvel Comics;15/11/05;Agility, Camouflage, Cold Resistance, Durability, Elemental Transmogrification, Energy Absorption, Fire Resistance, Heat Resistance, Intangibility, Invulnerability, Matter Absorption, Natural Armor, Stamina, Super Strength;62;79;14;76;Good;Human;27.19;223.22;0.0;0.0;0.0
-Absorbing Man;Carl Creel;;17/7/03;;84;52;95;49;Neutral;Other;53.05;435.37;1.0;0.0;0.0
-Ace Morgan;Kyle Morgan;DC Comics;11/4/23;Agility, Banish, Energy Blasts, Enhanced Sight, Intelligence, Intuitive aptitude, Magic, Marksmanship, Peak Human Condition, Reflexes, Stamina, Summoning, Weapon-based Powers, Weapons Master;58;90;44;96;Neutral;Other;278.02;479.92;0.0;1.0;0.0
-Achilles Warkiller;Achilles Warkiller;DC Comics;12/10/95;Accelerated Healing, Agility, Durability, Enhanced Hearing, Enhanced Memory, Enhanced Senses, Enhanced Sight, Enhanced Smell, Fire Resistance, Flight, Intelligence, Invulnerability, Longevity, Marksmanship, Master Martial Artist, Master Tactician, Radar Sense, Reflexes, Regeneration, Spatial Awareness, Stamina, Super Speed, Super Strength, Weapon-based Powers, Weapons Master;10;30;21;65;Good;God / Eternal;269.68;229.56;0.0;0.0;0.0
-Acidicus;Acidicus;;31/10/58;Accelerated Healing, Adaptation, Agility, Animal Attributes, Animal Control, Animal Oriented Powers, Camouflage, Cold Resistance, Dexterity, Durability, Element Control, Endurance, Enhanced Hearing, Enhanced Memory, Enhanced Senses, Enhanced Sight, Enhanced Smell, Enhanced Touch, Fear Manipulation, Fire Resistance, Heat Resistance, Illusions, Intelligence, Invulnerability, Jump, Longevity, Marksmanship, Mind Control, Natural Armor, Natural Weapons, Peak Human Condition, Reflexes, Regeneration, Self-Sustenance, Stamina, Stealth, Summoning, Super Speed, Super Strength, Toxin and Disease Control, Toxin and Disease Resistance, Underwater breathing, Vision - Infrared, Vision - Night, Vision - Telescopic, Vision - Thermal, Weapon-based Powers, Weapons Master;100;34;85;91;Neutral;Animal;258.83;140.63;0.0;0.0;0.0
-A'dal;;Blizzard Entertainment;3/2/78;Element Control, Heat Generation, Light Control, Matter Manipulation;66;41;12;14;Neutral;Other;70.91;456.26;0.0;0.0;0.0
-Adam Monroe;;NBC - Heroes;1/4/96;Accelerated Healing, Immortality, Regeneration;36;75;49;45;Good;Other;205.77;963.12;1.0;0.0;0.0
-Adam Strange;Adam Strange;DC Comics;24/8/68;Agility, Durability, Enhanced Sight, Fire Resistance, Flight, Intelligence, Marksmanship, Master Martial Artist, Master Tactician, Power Suit, Reflexes, Stamina, Stealth, Super Speed, Vision - Telescopic, Weapons Master;71;12;17;85;Good;Other;100.2;737.05;0.0;0.0;0.0
-Agent 13 (MCU);Sharon Carter;Marvel Comics;19/11/63;Intelligence, Peak Human Condition, Weapon-based Powers, Weapons Master;48;51;55;90;Good;Other;40.46;674.88;0.0;0.0;1.0
-Agent 13;Sharon Carter;Marvel Comics;9/11/59;Agility, Camouflage, Endurance, Intelligence, Marksmanship, Peak Human Condition, Reflexes, Stamina, Stealth, Weapon-based Powers, Weapons Master;57;84;88;76;Good;Other;77.09;418.91;0.0;0.0;0.0
-Agent Bob;Bob;Marvel Comics;3/6/60;Stealth;62;70;84;72;Good;Other;239.14;681.97;0.0;1.0;0.0
-Agent Carter;Carter;Marvel Comics;28/10/51;Agility, Hacking, Weapons Master;68;33;17;40;Good;Other;135.27;260.64;1.0;0.0;0.0
-Amanda Carter (sister-in-law; deceased);;18/7/59;;12;32;57;77;Neutral;Other;55.14;451.94;0.0;0.0;0.0
-Agent Coulson (Destroyer Gun);Coulson;Marvel Comics;16/8/88;Energy Beams, Fire Control, Hacking, Intelligence, Weapon-based Powers, Weapons Master;45;39;51;72;Good;Human;75.73;326.79;0.0;0.0;0.0
-Agent Coulson (MCU);Phillip J. Coulson;Marvel Comics;22/2/56;Agility, Dexterity, Endurance, Intelligence, Reflexes, Stealth, Super Speed, Weapon-based Powers, Weapons Master;37;93;82;57;Good;Other;146.14;893.8;0.0;1.0;1.0
-Agent May (MCU);Melinda May;Marvel Comics;16/3/12;Agility, Intelligence, Stealth, Weapon-based Powers, Weapons Master;72;27;26;6;Good;Human;73.47;913.1;0.0;0.0;0.0
-Agent Zero (FOX);David North;Marvel Comics;26/7/46;Absorption, Agility, Energy Absorption, Marksmanship, Reflexes;90;95;29;94;Neutral;Mutant;183.25;920.48;0.0;0.0;0.0
-Agent Zero;Christoph Nord;Marvel Comics;18/5/39;Energy Absorption, Energy Beams, Energy Blasts, Longevity, Power Suit, Super Strength;79;19;44;67;Good;Other;298.38;212.57;1.0;0.0;0.0
-A.I.M. Agent;;Marvel Comics;25/12/04;Marksmanship, Stealth, Weapons Master;43;33;61;34;Bad;Human;103.89;544.69;0.0;1.0;0.0
-Air-Walker;Gabriel Lan;;22/9/04;;87;15;31;48;Neutral;Other;116.32;376.79;0.0;0.0;0.0
-Ajax (FOX);Francis;Marvel Comics;20/8/46;Dexterity, Durability, Intelligence, Invulnerability, Reflexes, Super Strength, Weapons Master;22;22;57;88;Neutral;Mutant;175.27;276.18;0.0;0.0;0.0
-Ajax;Francis;;4/12/69;;72;48;68;81;Neutral;Other;184.77;293.66;0.0;0.0;0.0
-Akita;Akita;Lego;12/5/82;Adaptation, Agility, Animal Attributes, Animal Control, Animal Oriented Powers, Cold Resistance, Dexterity, Durability, Endurance, Enhanced Senses, Intelligence, Longevity, Master Martial Artist, Peak Human Condition, Perfect Recollection, Reflexes, Shapeshifting, Stealth, Transformation, Weapon-based Powers, Weapons Master;34;16;27;81;Good;Human;138.07;20.05;1.0;0.0;0.0
-Alex Danvers (CW);Alex Danvers;;7/3/86;Agility, Intelligence, Weapon-based Powers, Weapons Master;62;93;10;62;Good;Human;23.66;865.61;0.0;0.0;0.0
-Alex Mercer;Alexander J. Mercer;;15/6/85;;78;26;94;25;Neutral;Other;221.32;86.68;0.0;0.0;1.0
-Alfred (DCEU);Alfred Pennyworth;DC Comics;26/10/62;Intelligence, Marksmanship, Weapons Master;97;70;50;91;Good;Human;211.98;60.39;0.0;0.0;0.0
-Alfred Pennyworth;Alfred Thaddeus Crane Pennyworth;DC Comics;27/12/93;;68;54;27;16;Good;Other;68.66;480.84;0.0;1.0;0.0
-Alien;Xenomorph;;4/8/47;;61;12;62;76;Neutral;Other;106.25;772.17;1.0;0.0;0.0
-Alita;Alita;;22/3/37;Accelerated Healing, Agility, Danger Sense, Durability, Heat Generation, Invulnerability, Longevity, Marksmanship, Reflexes, Stamina, Stealth, Super Speed, Super Strength, Weapons Master;5;35;5;51;Good;Cyborg;218.62;531.54;0.0;0.0;0.0
-All-father Hercules;Hercules;Marvel Comics;8/1/98;Accelerated Healing, Agility, Cold Resistance, Electrokinesis, Element Control, Energy Beams, Energy Blasts, Energy Manipulation, Energy Resistance, Flight, Heat Resistance, Immortality, Intelligence, Invulnerability, Jump, Marksmanship, Nigh-Omnipotent, Reflexes, Regeneration, Seismic Power, Self-Sustenance, Shapeshifting, Size Changing, Stamina, Super Speed, Super Strength, Toxin and Disease Resistance, Weapons Master;47;75;88;9;Neutral;;133.02;890.27;0.0;0.0;0.0
-Allan Quatermain;;;27/1/61;;93;32;88;79;Neutral;;207.7;533.46;0.0;1.0;1.0
-Alta√Ør Ibn-La'Ahad;Alta√Ør Ibn-La'Ahad;Ubisoft;4/2/81;Agility, Danger Sense, Energy Manipulation, Intelligence, Marksmanship, Mind Control, Peak Human Condition, Power Suit, Reflexes, Spatial Awareness, Stamina, Stealth, Vision - Cryo, Weapons Master;36;19;100;48;Good;Human;136.12;491.32;0.0;0.0;0.0
-Alucard;Dracula;;17/10/46;;91;60;95;56;Neutral;;208.89;934.55;0.0;0.0;0.0
-Amadeus Cho;Amadeus Cho;Marvel Comics;27/4/46;Electrokinesis, Energy Beams, Intelligence, Weapon Creation, Weapon-based Powers, Weapons Master;44;87;17;8;Good;;135.09;488.44;1.0;0.0;0.0
-Amanda Waller;Amanda Waller;;15/9/66;;23;28;15;9;Neutral;;212.2;175.0;0.0;1.0;0.0
-A.M.A.Z.O. (CW);;;15/12/85;Afterimage Creation, Cold Resistance, Cryokinesis, Elasticity, Electrokinesis, Element Control, Energy Absorption, Enhanced Hearing, Flight, Heat Resistance, Intangibility, Mind Control Resistance, Portal Creation, Radiation Immunity, Shapeshifting, Super Breath, Telepathy Resistance, Time Travel, Toxin and Disease Resistance, Vision - Heat, Vision - Telescopic, Vision - X-Ray, Weapons Master, Wind Control;36;27;75;31;Neutral;;172.43;254.86;0.0;0.0;0.0
-Amazo;;DC Comics;18/3/37;Agility, Camouflage, Cryokinesis, Duplication, Durability, Energy Blasts, Energy Constructs, Enhanced Hearing, Enhanced Memory, Enhanced Senses, Enhanced Smell, Fire Control, Flight, Force Fields, Intelligence, Invisibility, Invulnerability, Jump, Lantern Power Ring, Longevity, Magnetism, Marksmanship, Phasing, Power Absorption, Power Augmentation, Reflexes, Shapeshifting, Size Changing, Stamina, Super Breath, Super Speed, Super Strength, Telepathy, Teleportation, Time Travel, Underwater breathing, Vision - Heat, Vision - Microscopic, Vision - Night, Vision - Telescopic, Vision - Thermal, Vision - X-Ray, Water Control, Weapon-based Powers;50;35;61;83;Bad;Android;296.0;822.46;0.0;0.0;0.0
-Ammo;;Marvel Comics;20/4/86;Weapons Master;32;63;9;43;Bad;Human;32.68;770.95;0.0;0.0;0.0
-Amygdala;Aaron Helzinger;DC Comics;3/4/08;Durability, Insanity, Invulnerability, Peak Human Condition, Super Strength;66;63;41;7;Bad;;241.69;156.83;1.0;0.0;0.0
-Anacondrai Serpent;;;12/5/10;Accelerated Healing, Agility, Animal Attributes, Animal Control, Animal Oriented Powers, Camouflage, Cold Resistance, Durability, Endurance, Energy Resistance, Enhanced Hearing, Enhanced Senses, Enhanced Sight, Enhanced Smell, Enhanced Touch, Fire Resistance, Heat Resistance, Invisibility, Invulnerability, Longevity, Natural Armor, Reflexes, Regeneration, Self-Sustenance, Stamina, Stealth, Super Speed, Super Strength, Toxin and Disease Resistance, Wallcrawling;25;61;5;81;Bad;Animal;141.4;491.45;0.0;0.0;0.0
-Ancalagon;;;7/5/52;;42;33;50;12;Neutral;;214.79;893.66;0.0;0.0;1.0
-Ancient One (MCU);;Marvel Comics;20/4/96;Astral Projection, Darkforce Manipulation, Dimensional Travel, Element Control, Energy Manipulation, Immortality, Magic, Portal Creation, Precognition, Reality Warping, Teleportation, Time Manipulation;55;13;34;15;Good;Human;69.07;722.52;0.0;0.0;0.0
-Ando Masahashi;Ando Masahashi;;19/4/63;;10;60;97;37;Neutral;;134.39;971.39;0.0;1.0;0.0
-Angel Dust;Christina;Marvel Comics;9/11/07;Agility, Stamina, Super Speed, Super Strength;78;9;65;87;Good;Mutant;122.82;959.74;1.0;0.0;0.0
-Angel Of Death;;Dark Horse Comics;10/8/39;Accelerated Healing, Agility, Dexterity, Durability, Endurance, Enhanced Senses, Flight, Immortality, Intelligence, Jump, Longevity, Marksmanship, Reflexes, Regeneration, Stamina, Stealth, Super Speed, Super Strength, Weapons Master;91;23;82;80;Bad;;90.38;805.28;0.0;0.0;0.0
-Angel Salvadore (FOX);Angel Salvadore;Marvel Comics;21/3/48;Animal Attributes, Animal Oriented Powers, Energy Blasts, Flight, Regeneration, Toxin and Disease Control;36;93;32;42;Bad;Mutant;185.32;658.81;0.0;0.0;0.0
-Angel Salvadore;Angel Salvadore Bohusk;;8/11/06;;15;10;42;43;Neutral;;131.32;825.71;0.0;1.0;1.0
-Angel;Liam;;13/4/83;;100;24;87;75;Neutral;;288.05;212.26;0.0;0.0;0.0
-Angela;Aldrif Odinsdottir;Marvel Comics;21/12/97;Accelerated Healing, Agility, Durability, Enhanced Senses, Flight, Immortality, Intelligence, Longevity, Marksmanship, Reflexes, Stamina, Super Speed, Super Strength, Weapons Master;83;12;11;29;Neutral;;213.99;350.68;0.0;0.0;0.0
-Animal Man;Bernhard Baker;;4/4/72;;17;43;5;42;Neutral;;86.37;188.61;1.0;0.0;0.0
-Annabeth Chase (FOX);Annabeth Chase;;25/12/85;Intelligence, Weapon-based Powers, Weapons Master;71;33;56;41;Good;Demi-God;162.07;384.16;0.0;1.0;0.0
-Annihilus;Annihilus;Marvel Comics;15/7/13;Agility, Durability, Flight, Reflexes, Stamina, Super Speed, Super Strength;43;75;23;13;Bad;;28.25;280.97;0.0;0.0;0.0
-Ant-Man II;Scott Lang;;6/7/99;;90;6;42;66;Neutral;;210.05;211.98;0.0;0.0;0.0
-Ant-Man (MCU);Hank Pym;Marvel Comics;11/2/11;Agility, Animal Control, Density Control, Durability, Intelligence, Intuitive aptitude, Power Suit, Size Changing, Stamina, Stealth, Super Strength;88;84;9;37;Good;Human;110.21;955.77;0.0;0.0;0.0
-Ant-Man;Hank Pym;;25/11/37;;8;42;26;100;Neutral;;242.87;27.09;1.0;0.0;0.0
-Anti-Monitor;Mobius;DC Comics;6/11/44;Accelerated Healing, Darkforce Manipulation, Dimensional Awareness, Durability, Energy Absorption, Energy Beams, Energy Blasts, Energy Constructs, Flight, Immortality, Intelligence, Invulnerability, Matter Absorption, Molecular Manipulation, Power Augmentation, Power Suit, Reality Warping, Size Changing, Super Strength, Telepathy, Teleportation, Time Manipulation, Time Travel;23;15;100;25;Bad;God / Eternal;282.86;364.87;0.0;0.0;0.0
-Anti-Spawn;The Redeemer;Image Comics;29/8/65;Agility, Astral Projection, Durability, Element Control, Energy Blasts, Energy Manipulation, Fire Control, Invulnerability, Magic, Mind Control, Possession, Reflexes, Stamina, Super Speed, Super Strength, Teleportation;65;94;74;49;Bad;;127.49;535.84;0.0;0.0;1.0
-Anti-Venom;Eddie Brock;Marvel Comics;18/8/64;Accelerated Healing, Camouflage, Danger Sense, Durability, Elasticity, Enhanced Senses, Reflexes, Shapeshifting, Stamina, Super Strength, Symbiote Costume, Toxin and Disease Resistance, Wallcrawling, Web Creation;71;99;69;90;Neutral;;48.6;418.69;0.0;0.0;0.0
-Apocalypse (FOX);En Sabah Nur;;27/11/84;;6;58;14;48;Neutral;;67.51;208.71;0.0;1.0;0.0
-Aquababy;Arthur Curry, Jr.;DC Comics;23/4/57;Super Strength, Underwater breathing, Water Control;15;33;57;32;Good;;209.23;48.44;1.0;0.0;0.0
-Aquagirl I;Tula;DC Comics;20/10/56;Durability, Invulnerability, Self-Sustenance, Super Speed, Super Strength, Telepathy;83;91;80;28;Good;Atlantean;97.89;868.93;0.0;0.0;0.0
-Aqualad II;Jackson Hyde;DC Comics;22/1/60;Adaptation, Durability, Electrokinesis, Element Control, Enhanced Hearing, Enhanced Senses, Enhanced Sight, Invulnerability, Reflexes, Stamina, Super Speed, Super Strength, Underwater breathing, Water Control;35;57;28;36;Good;;151.52;398.81;0.0;0.0;0.0
-Aqualad;Garth;;26/2/36;;75;29;49;45;Neutral;;136.97;194.48;0.0;1.0;1.0
-Aquaman (Injustice);Arthur Curry;DC Comics;13/4/94;Accelerated Healing, Agility, Animal Control, Cold Resistance, Durability, Electrokinesis, Element Control, Enhanced Senses, Heat Resistance, Intelligence, Longevity, Peak Human Condition, Portal Creation, Reflexes, Self-Sustenance, Stamina, Stealth, Sub-Mariner, Summoning, Super Speed, Super Strength, Telepathy, Vision - Night, Water Control, Weapon-based Powers, Weapons Master;7;20;94;49;Good;Atlantean;238.39;284.22;0.0;0.0;0.0
-Aquaman;Orin;;13/11/55;;93;13;13;11;Neutral;;94.64;506.21;0.0;0.0;0.0
-Aracnido Jr.;;Marvel Comics;13/10/73;Agility, Wallcrawling, Web Creation;99;35;22;93;Neutral;;26.75;682.61;1.0;0.0;0.0
-Aragorn;Aragorn II Elessar;J. R. R. Tolkien;8/3/64;Accelerated Healing, Agility, Empathy, Intelligence, Longevity, Marksmanship, Omnilingualism, Stamina, Stealth, Weapon-based Powers, Weapons Master;48;87;10;43;Good;Human;112.44;820.83;0.0;1.0;0.0
-Archangel (FOX);Warren Kenneth Worthington III;Marvel Comics;24/11/04;Flight, Gliding;47;29;11;59;Neutral;;116.6;611.88;0.0;0.0;0.0
-Archangel;Warren Kenneth Worthington III ;;24/8/90;;87;41;10;72;Neutral;;159.42;328.17;0.0;0.0;0.0
-Arclight;Philippa Sontag;Marvel Comics;28/9/49;Durability, Seismic Power, Stamina, Super Strength;33;6;35;47;Bad;;234.75;479.26;0.0;0.0;0.0
-Arcturus;Arcturus;;24/8/86;Accelerated Healing, Agility, Animal Attributes, Animal Control, Animal Oriented Powers, Camouflage, Cold Resistance, Durability, Endurance, Energy Resistance, Enhanced Hearing, Enhanced Memory, Enhanced Senses, Enhanced Sight, Enhanced Smell, Enhanced Touch, Fire Resistance, Heat Resistance, Intelligence, Invulnerability, Longevity, Marksmanship, Natural Armor, Natural Weapons, Peak Human Condition, Reflexes, Regeneration, Self-Sustenance, Stamina, Stealth, Summoning, Super Speed, Super Strength, Toxin and Disease Resistance, Vision - Infrared, Vision - Microscopic, Vision - Night, Vision - Telescopic, Vision - Thermal, Weapon-based Powers, Weapons Master;65;48;89;76;Neutral;Animal;126.38;512.85;1.0;0.0;0.0
-Ardina;Ardina;Marvel Comics;20/3/74;Accelerated Healing, Agility, Cold Resistance, Durability, Empathy, Energy Blasts, Energy Manipulation, Enhanced Senses, Flight, Heat Resistance, Invulnerability, Molecular Manipulation, Power Cosmic, Reflexes, Self-Sustenance, Super Speed, Super Strength;25;13;62;63;Good;Alien;72.47;617.32;0.0;0.0;0.0
-Ariel;Ariel;Marvel Comics;4/12/89;Telepathy, Teleportation;43;66;62;78;Good;;237.65;608.17;0.0;0.0;1.0
-Arizona Annie;;Marvel Comics;26/4/58;Marksmanship, Weapon-based Powers, Weapons Master;70;56;41;10;Neutral;;29.53;198.67;0.0;0.0;0.0
-Arkade;;;29/1/77;Absorption, Agility, Camouflage, Dexterity, Durability, Endurance, Enhanced Hearing, Enhanced Memory, Enhanced Senses, Enhanced Sight, Enhanced Smell, Enhanced Touch, Heat Resistance, Insanity, Intelligence, Longevity, Marksmanship, Peak Human Condition, Power Suit, Reflexes, Stamina, Stealth, Summoning, Vision - Night, Weapon-based Powers, Weapons Master;70;30;100;13;Bad;;290.98;978.79;0.0;0.0;0.0
-Arkillo;Arkillo;DC Comics;2/11/44;Agility, Durability, Energy Beams, Energy Constructs, Flight, Invulnerability, Lantern Power Ring, Super Speed, Super Strength, Toxin and Disease Resistance;65;20;69;64;Bad;Cosmic Entity;141.26;926.3;0.0;0.0;0.0
-Armor;Hisako Ichiki;Marvel Comics;15/9/73;Energy Armor, Psionic Powers, Super Strength;80;10;42;48;Good;;65.86;186.4;0.0;0.0;0.0
-Arnim Zola (MCU);Arnim Zola;Marvel Comics;4/5/63;Intelligence, Intuitive aptitude;37;11;46;74;Bad;Human;100.37;805.61;0.0;0.0;0.0
-Arno Victor Dorian;Arno Dorian;Ubisoft;23/8/66;Agility, Danger Sense, Durability, Endurance, Enhanced Hearing, Enhanced Senses, Enhanced Sight, Enhanced Smell, Enhanced Touch, Hypnokinesis, Intelligence, Intuitive aptitude, Jump, Marksmanship, Mind Control Resistance, Molecular Combustion, Peak Human Condition, Reflexes, Stamina, Stealth, Vision - Cryo, Weapon-based Powers, Weapons Master;23;42;90;42;Good;Human / Altered;160.52;552.22;0.0;0.0;0.0
-Arnold Flass;Arnold Flass;DC Comics;21/6/93;Law Manipulation, Master Martial Artist, Weapon-based Powers, Weapons Master;33;74;65;91;Bad;Human;209.26;885.03;0.0;0.0;0.0
-Arsenal (CW);Roy Harper;DC Comics;28/7/94;Agility, Marksmanship, Peak Human Condition, Reflexes, Weapon-based Powers, Weapons Master;55;10;10;16;Neutral;;72.33;632.42;0.0;0.0;0.0
-Arsenal;Roy William Harper, Jr.;DC Comics;31/1/87;Agility, Marksmanship, Weapon-based Powers, Weapons Master;49;66;46;71;Good;Human;291.83;837.82;0.0;0.0;0.0
-Artemis (CW);Evelyn Sharp;;11/10/95;;12;6;48;14;Neutral;;23.85;217.98;0.0;1.0;0.0
-Arthur Dayne;;;25/7/09;Dexterity, Reflexes, Stamina, Weapons Master;36;58;23;68;Neutral;;22.86;251.8;1.0;0.0;0.0
-Ash;Ash;Lego;8/4/42;Agility, Cold Resistance, Dexterity, Durability, Element Control, Endurance, Fire Resistance, Heat Resistance, Intangibility, Intelligence, Invisibility, Marksmanship, Peak Human Condition, Phasing, Reflexes, Shapeshifting, Smoke Manipulation, Stamina, Stealth, Teleportation, Weapons Master;84;90;87;16;Good;Human;275.0;685.56;0.0;0.0;0.0
-Aspheera;Aspheera;;26/10/45;Ability Shift, Absorption, Accelerated Healing, Adaptation, Agility, Animal Attributes, Animal Control, Animal Oriented Powers, Banish, Cold Resistance, Darkforce Manipulation, Dexterity, Dream Manipulation, Dream Manipulation, Durability, Element Control, Endurance, Energy Absorption, Enhanced Hearing, Enhanced Memory, Enhanced Senses, Enhanced Sight, Enhanced Smell, Existence Erasure, Fire Control, Fire Resistance, Flight, Force Fields, Heat Generation, Heat Resistance, Illusions, Immortality, Insanity, Intelligence, Invisibility, Invulnerability, Longevity, Magic, Magic Resistance, Marksmanship, Master Tactician, Matter Absorption, Melting, Memory Manipulation, Natural Armor, Natural Weapons, Peak Human Condition, Perfect Recollection, Photographic Reflexes, Power Absorption, Power Augmentation, Power Nullifier, Reflexes, Self-Sustenance, Smoke Manipulation, Spinjitzu, Stamina, Stealth, Summoning, Super Speed, Super Strength, Teleportation, Weapon-based Powers, Weapons Master;66;89;19;67;Bad;Animal;93.33;49.19;0.0;0.0;0.0
-Asura;Asura;;12/1/10;;6;51;71;69;Neutral;;59.51;970.8;0.0;1.0;1.0
-Yasha (Brother-in-law);;;12/4/96;;55;50;50;50;Neutral;;65.82;703.8;0.0;0.0;0.0
+﻿name;real_name;Creador;creation_date;superpowers;intelligence_score;strength_score;speed_score;durability_score;Creador;type_race;height ;weight ;has_telepathy;has_magic;has_immortality
+3-D Man;Delroy Garrett, Jr.;Lego;22/1/82;Super Speed, Super Strength;42;95;51;30;Bad;God_Eternal;51.87;511.68;0.0;0.0;0.0
+514A (Gotham);Bruce Wayne;Lego;2/2/44;Durability, Reflexes, Super Strength;43;57;86;90;Bad;God_Eternal;248.49;846.64;0.0;0.0;0.0
+Aa;Aa;Shueisha;8/2/67;;40;22;72;78;Good;Mutant;241.3;367.51;0.0;0.0;0.0
+Aaron Cash;Aaron Cash;DC_Comics;21/6/90;Weapon-based Powers, Weapons Master;43;66;41;43;Good;Mutant;51.97;936.67;0.0;0.0;0.0
+Aayla Secura;Aayla Secura;Marvel_Comics;6/7/39;Accelerated Healing, Agility, Astral Projection, Cloaking, Danger Sense;74;95;98;41;Bad;God_Eternal;142.36;46.59;0.0;0.0;0.0
+Abe Sapien;Abraham Sapien;Lego;23/3/63;;34;80;7;93;Good;Mutant;63.38;211.56;0.0;1.0;0.0
+Abin Sur;;Lego;8/6/87;Lantern Power Ring;77;80;59;71;Bad;Human;93.99;654.04;1.0;0.0;0.0
+Abomination;Emil Blonsky;Dark_Horse_Comics;29/1/73;;87;21;47;61;Good;Mutant;261.96;179.46;0.0;0.0;0.0
+Abra Kadabra (CW);Unknown;Dark_Horse_Comics;9/10/50;Dimensional Travel, Illusions, Intelligence, Intuitive aptitude, Matter Manipulation, Technopath/Cyberpath, Teleportation;76;18;12;47;Bad;MetaHuman;224.93;918.43;0.0;0.0;0.0
+Abra Kadabra;Abhararakadhararbarakh;Dark_Horse_Comics;16/5/08;Animation, Astral Projection, Dimensional Travel, Hypnokinesis, Illusions, Immortality, Intelligence, Longevity, Magic, Marksmanship, Matter Manipulation, Possession, Precognition, Probability Manipulation, Stamina, Stealth, Time Manipulation, Time Travel;79;80;15;80;Good;Mutant;38.89;326.95;0.0;1.0;1.0
+Abraxas;Abraxas;Marvel_Comics;15/8/72;;41;89;17;38;Bad;Human;59.65;332.25;0.0;0.0;0.0
+Absorbing Man (MCU);Carl Creel;Other;15/11/05;Agility, Camouflage, Cold Resistance, Durability, Elemental Transmogrification, Energy Absorption, Fire Resistance, Heat Resistance, Intangibility, Invulnerability, Matter Absorption, Natural Armor, Stamina, Super Strength;62;79;14;76;Bad;Mutant;27.19;223.22;0.0;0.0;0.0
+Absorbing Man;Carl Creel;Dark_Horse_Comics;17/7/03;;84;52;95;49;Neutral;Mutant;53.05;435.37;1.0;0.0;0.0
+Ace Morgan;Kyle Morgan;Marvel_Comics;11/4/23;Agility, Banish, Energy Blasts, Enhanced Sight, Intelligence, Intuitive aptitude, Magic, Marksmanship, Peak Human Condition, Reflexes, Stamina, Summoning, Weapon-based Powers, Weapons Master;58;90;44;96;Bad;Alien;278.02;479.92;0.0;1.0;0.0
+Achilles Warkiller;Achilles Warkiller;Shueisha;12/10/95;Accelerated Healing, Agility, Durability, Enhanced Hearing, Enhanced Memory, Enhanced Senses, Enhanced Sight, Enhanced Smell, Fire Resistance, Flight, Intelligence, Invulnerability, Longevity, Marksmanship, Master Martial Artist, Master Tactician, Radar Sense, Reflexes, Regeneration, Spatial Awareness, Stamina, Super Speed, Super Strength, Weapon-based Powers, Weapons Master;10;30;21;65;Bad;Mutant;269.68;229.56;0.0;0.0;0.0
+Acidicus;Acidicus;Lego;31/10/58;Accelerated Healing, Adaptation, Agility, Animal Attributes, Animal Control, Animal Oriented Powers, Camouflage, Cold Resistance, Dexterity, Durability, Element Control, Endurance, Enhanced Hearing, Enhanced Memory, Enhanced Senses, Enhanced Sight, Enhanced Smell, Enhanced Touch, Fear Manipulation, Fire Resistance, Heat Resistance, Illusions, Intelligence, Invulnerability, Jump, Longevity, Marksmanship, Mind Control, Natural Armor, Natural Weapons, Peak Human Condition, Reflexes, Regeneration, Self-Sustenance, Stamina, Stealth, Summoning, Super Speed, Super Strength, Toxin and Disease Control, Toxin and Disease Resistance, Underwater breathing, Vision - Infrared, Vision - Night, Vision - Telescopic, Vision - Thermal, Weapon-based Powers, Weapons Master;100;34;85;91;Good;Alien;258.83;140.63;0.0;0.0;0.0
+A'dal;;Shueisha;3/2/78;Element Control, Heat Generation, Light Control, Matter Manipulation;66;41;12;14;Good;Other;70.91;456.26;0.0;0.0;0.0
+Adam Monroe;;Other;1/4/96;Accelerated Healing, Immortality, Regeneration;36;75;49;45;Neutral;MetaHuman;205.77;963.12;1.0;0.0;0.0
+Adam Strange;Adam Strange;Other;24/8/68;Agility, Durability, Enhanced Sight, Fire Resistance, Flight, Intelligence, Marksmanship, Master Martial Artist, Master Tactician, Power Suit, Reflexes, Stamina, Stealth, Super Speed, Vision - Telescopic, Weapons Master;71;12;17;85;Bad;God_Eternal;100.2;737.05;0.0;0.0;0.0
+Agent 13 (MCU);Sharon Carter;Marvel_Comics;19/11/63;Intelligence, Peak Human Condition, Weapon-based Powers, Weapons Master;48;51;55;90;Bad;Alien;40.46;674.88;0.0;0.0;1.0
+Agent 13;Sharon Carter;Dark_Horse_Comics;9/11/59;Agility, Camouflage, Endurance, Intelligence, Marksmanship, Peak Human Condition, Reflexes, Stamina, Stealth, Weapon-based Powers, Weapons Master;57;84;88;76;Neutral;Mutant;77.09;418.91;0.0;0.0;0.0
+Agent Bob;Bob;Other;3/6/60;Stealth;62;70;84;72;Neutral;Mutant;239.14;681.97;0.0;1.0;0.0
+Agent Carter;Carter;Lego;28/10/51;Agility, Hacking, Weapons Master;68;33;17;40;Bad;Mutant;135.27;260.64;1.0;0.0;0.0
+Amanda Carter (sister-in-law; deceased);Shueisha;18/7/59;;12;32;57;77;Neutral;MetaHuman;55.14;451.94;0.0;0.0;0.0
+Agent Coulson (Destroyer Gun);Coulson;Other;16/8/88;Energy Beams, Fire Control, Hacking, Intelligence, Weapon-based Powers, Weapons Master;45;39;51;72;Good;MetaHuman;75.73;326.79;0.0;0.0;0.0
+Agent Coulson (MCU);Phillip J. Coulson;Marvel_Comics;22/2/56;Agility, Dexterity, Endurance, Intelligence, Reflexes, Stealth, Super Speed, Weapon-based Powers, Weapons Master;37;93;82;57;Bad;Mutant;146.14;893.8;0.0;1.0;1.0
+Agent May (MCU);Melinda May;Dark_Horse_Comics;16/3/12;Agility, Intelligence, Stealth, Weapon-based Powers, Weapons Master;72;27;26;6;Good;Human;73.47;913.1;0.0;0.0;0.0
+Agent Zero (FOX);David North;DC_Comics;26/7/46;Absorption, Agility, Energy Absorption, Marksmanship, Reflexes;90;95;29;94;Bad;Alien;183.25;920.48;0.0;0.0;0.0
+Agent Zero;Christoph Nord;DC_Comics;18/5/39;Energy Absorption, Energy Beams, Energy Blasts, Longevity, Power Suit, Super Strength;79;19;44;67;Neutral;Mutant;298.38;212.57;1.0;0.0;0.0
+A.I.M. Agent;;Marvel_Comics;25/12/04;Marksmanship, Stealth, Weapons Master;43;33;61;34;Bad;Mutant;103.89;544.69;0.0;1.0;0.0
+Air-Walker;Gabriel Lan;Shueisha;22/9/04;;87;15;31;48;Bad;Other;116.32;376.79;0.0;0.0;0.0
+Ajax (FOX);Francis;DC_Comics;20/8/46;Dexterity, Durability, Intelligence, Invulnerability, Reflexes, Super Strength, Weapons Master;22;22;57;88;Neutral;Other;175.27;276.18;0.0;0.0;0.0
+Ajax;Francis;Lego;4/12/69;;72;48;68;81;Good;God_Eternal;184.77;293.66;0.0;0.0;0.0
+Akita;Akita;Shueisha;12/5/82;Adaptation, Agility, Animal Attributes, Animal Control, Animal Oriented Powers, Cold Resistance, Dexterity, Durability, Endurance, Enhanced Senses, Intelligence, Longevity, Master Martial Artist, Peak Human Condition, Perfect Recollection, Reflexes, Shapeshifting, Stealth, Transformation, Weapon-based Powers, Weapons Master;34;16;27;81;Good;God_Eternal;138.07;20.05;1.0;0.0;0.0
+Alex Danvers (CW);Alex Danvers;DC_Comics;7/3/86;Agility, Intelligence, Weapon-based Powers, Weapons Master;62;93;10;62;Bad;Mutant;23.66;865.61;0.0;0.0;0.0
+Alex Mercer;Alexander J. Mercer;Lego;15/6/85;;78;26;94;25;Neutral;Human;221.32;86.68;0.0;0.0;1.0
+Alfred (DCEU);Alfred Pennyworth;Dark_Horse_Comics;26/10/62;Intelligence, Marksmanship, Weapons Master;97;70;50;91;Bad;Alien;211.98;60.39;0.0;0.0;0.0
+Alfred Pennyworth;Alfred Thaddeus Crane Pennyworth;Dark_Horse_Comics;27/12/93;;68;54;27;16;Bad;Other;68.66;480.84;0.0;1.0;0.0
+Alien;Xenomorph;DC_Comics;4/8/47;;61;12;62;76;Neutral;MetaHuman;106.25;772.17;1.0;0.0;0.0
+Alita;Alita;Dark_Horse_Comics;22/3/37;Accelerated Healing, Agility, Danger Sense, Durability, Heat Generation, Invulnerability, Longevity, Marksmanship, Reflexes, Stamina, Stealth, Super Speed, Super Strength, Weapons Master;5;35;5;51;Good;God_Eternal;218.62;531.54;0.0;0.0;0.0
+All-father Hercules;Hercules;Other;8/1/98;Accelerated Healing, Agility, Cold Resistance, Electrokinesis, Element Control, Energy Beams, Energy Blasts, Energy Manipulation, Energy Resistance, Flight, Heat Resistance, Immortality, Intelligence, Invulnerability, Jump, Marksmanship, Nigh-Omnipotent, Reflexes, Regeneration, Seismic Power, Self-Sustenance, Shapeshifting, Size Changing, Stamina, Super Speed, Super Strength, Toxin and Disease Resistance, Weapons Master;47;75;88;9;Good;God_Eternal;133.02;890.27;0.0;0.0;0.0
+Allan Quatermain;;DC_Comics;27/1/61;;93;32;88;79;Bad;MetaHuman;207.7;533.46;0.0;1.0;1.0
+Alta√Ør Ibn-La'Ahad;Alta√Ør Ibn-La'Ahad;Shueisha;4/2/81;Agility, Danger Sense, Energy Manipulation, Intelligence, Marksmanship, Mind Control, Peak Human Condition, Power Suit, Reflexes, Spatial Awareness, Stamina, Stealth, Vision - Cryo, Weapons Master;36;19;100;48;Neutral;Other;136.12;491.32;0.0;0.0;0.0
+Alucard;Dracula;Shueisha;17/10/46;;91;60;95;56;Neutral;MetaHuman;208.89;934.55;0.0;0.0;0.0
+Amadeus Cho;Amadeus Cho;Shueisha;27/4/46;Electrokinesis, Energy Beams, Intelligence, Weapon Creation, Weapon-based Powers, Weapons Master;44;87;17;8;Good;MetaHuman;135.09;488.44;1.0;0.0;0.0
+Amanda Waller;Amanda Waller;Marvel_Comics;15/9/66;;23;28;15;9;Neutral;Other;212.2;175.0;0.0;1.0;0.0
+A.M.A.Z.O. (CW);;Other;15/12/85;Afterimage Creation, Cold Resistance, Cryokinesis, Elasticity, Electrokinesis, Element Control, Energy Absorption, Enhanced Hearing, Flight, Heat Resistance, Intangibility, Mind Control Resistance, Portal Creation, Radiation Immunity, Shapeshifting, Super Breath, Telepathy Resistance, Time Travel, Toxin and Disease Resistance, Vision - Heat, Vision - Telescopic, Vision - X-Ray, Weapons Master, Wind Control;36;27;75;31;Bad;Other;172.43;254.86;0.0;0.0;0.0
+Amazo;;Lego;18/3/37;Agility, Camouflage, Cryokinesis, Duplication, Durability, Energy Blasts, Energy Constructs, Enhanced Hearing, Enhanced Memory, Enhanced Senses, Enhanced Smell, Fire Control, Flight, Force Fields, Intelligence, Invisibility, Invulnerability, Jump, Lantern Power Ring, Longevity, Magnetism, Marksmanship, Phasing, Power Absorption, Power Augmentation, Reflexes, Shapeshifting, Size Changing, Stamina, Super Breath, Super Speed, Super Strength, Telepathy, Teleportation, Time Travel, Underwater breathing, Vision - Heat, Vision - Microscopic, Vision - Night, Vision - Telescopic, Vision - Thermal, Vision - X-Ray, Water Control, Weapon-based Powers;50;35;61;83;Neutral;MetaHuman;296.0;822.46;0.0;0.0;0.0
+Ammo;;Lego;20/4/86;Weapons Master;32;63;9;43;Bad;Other;32.68;770.95;0.0;0.0;0.0
+Amygdala;Aaron Helzinger;Other;3/4/08;Durability, Insanity, Invulnerability, Peak Human Condition, Super Strength;66;63;41;7;Neutral;Human;241.69;156.83;1.0;0.0;0.0
+Anacondrai Serpent;;Dark_Horse_Comics;12/5/10;Accelerated Healing, Agility, Animal Attributes, Animal Control, Animal Oriented Powers, Camouflage, Cold Resistance, Durability, Endurance, Energy Resistance, Enhanced Hearing, Enhanced Senses, Enhanced Sight, Enhanced Smell, Enhanced Touch, Fire Resistance, Heat Resistance, Invisibility, Invulnerability, Longevity, Natural Armor, Reflexes, Regeneration, Self-Sustenance, Stamina, Stealth, Super Speed, Super Strength, Toxin and Disease Resistance, Wallcrawling;25;61;5;81;Bad;MetaHuman;141.4;491.45;0.0;0.0;0.0
+Ancalagon;;Shueisha;7/5/52;;42;33;50;12;Bad;Mutant;214.79;893.66;0.0;0.0;1.0
+Ancient One (MCU);;DC_Comics;20/4/96;Astral Projection, Darkforce Manipulation, Dimensional Travel, Element Control, Energy Manipulation, Immortality, Magic, Portal Creation, Precognition, Reality Warping, Teleportation, Time Manipulation;55;13;34;15;Good;Other;69.07;722.52;0.0;0.0;0.0
+Ando Masahashi;Ando Masahashi;Shueisha;19/4/63;;10;60;97;37;Bad;Mutant;134.39;971.39;0.0;1.0;0.0
+Angel Dust;Christina;DC_Comics;9/11/07;Agility, Stamina, Super Speed, Super Strength;78;9;65;87;Bad;Alien;122.82;959.74;1.0;0.0;0.0
+Angel Of Death;;Marvel_Comics;10/8/39;Accelerated Healing, Agility, Dexterity, Durability, Endurance, Enhanced Senses, Flight, Immortality, Intelligence, Jump, Longevity, Marksmanship, Reflexes, Regeneration, Stamina, Stealth, Super Speed, Super Strength, Weapons Master;91;23;82;80;Bad;MetaHuman;90.38;805.28;0.0;0.0;0.0
+Angel Salvadore (FOX);Angel Salvadore;Lego;21/3/48;Animal Attributes, Animal Oriented Powers, Energy Blasts, Flight, Regeneration, Toxin and Disease Control;36;93;32;42;Neutral;Alien;185.32;658.81;0.0;0.0;0.0
+Angel Salvadore;Angel Salvadore Bohusk;Lego;8/11/06;;15;10;42;43;Neutral;Other;131.32;825.71;0.0;1.0;1.0
+Angel;Liam;Lego;13/4/83;;100;24;87;75;Neutral;Other;288.05;212.26;0.0;0.0;0.0
+Angela;Aldrif Odinsdottir;Shueisha;21/12/97;Accelerated Healing, Agility, Durability, Enhanced Senses, Flight, Immortality, Intelligence, Longevity, Marksmanship, Reflexes, Stamina, Super Speed, Super Strength, Weapons Master;83;12;11;29;Neutral;MetaHuman;213.99;350.68;0.0;0.0;0.0
+Animal Man;Bernhard Baker;DC_Comics;4/4/72;;17;43;5;42;Bad;Alien;86.37;188.61;1.0;0.0;0.0
+Annabeth Chase (FOX);Annabeth Chase;Marvel_Comics;25/12/85;Intelligence, Weapon-based Powers, Weapons Master;71;33;56;41;Bad;God_Eternal;162.07;384.16;0.0;1.0;0.0
+Annihilus;Annihilus;Lego;15/7/13;Agility, Durability, Flight, Reflexes, Stamina, Super Speed, Super Strength;43;75;23;13;Bad;Mutant;28.25;280.97;0.0;0.0;0.0
+Ant-Man II;Scott Lang;Shueisha;6/7/99;;90;6;42;66;Neutral;Alien;210.05;211.98;0.0;0.0;0.0
+Ant-Man (MCU);Hank Pym;DC_Comics;11/2/11;Agility, Animal Control, Density Control, Durability, Intelligence, Intuitive aptitude, Power Suit, Size Changing, Stamina, Stealth, Super Strength;88;84;9;37;Good;MetaHuman;110.21;955.77;0.0;0.0;0.0
+Ant-Man;Hank Pym;Other;25/11/37;;8;42;26;100;Bad;Human;242.87;27.09;1.0;0.0;0.0
+Anti-Monitor;Mobius;DC_Comics;6/11/44;Accelerated Healing, Darkforce Manipulation, Dimensional Awareness, Durability, Energy Absorption, Energy Beams, Energy Blasts, Energy Constructs, Flight, Immortality, Intelligence, Invulnerability, Matter Absorption, Molecular Manipulation, Power Augmentation, Power Suit, Reality Warping, Size Changing, Super Strength, Telepathy, Teleportation, Time Manipulation, Time Travel;23;15;100;25;Neutral;MetaHuman;282.86;364.87;0.0;0.0;0.0
+Anti-Spawn;The Redeemer;Dark_Horse_Comics;29/8/65;Agility, Astral Projection, Durability, Element Control, Energy Blasts, Energy Manipulation, Fire Control, Invulnerability, Magic, Mind Control, Possession, Reflexes, Stamina, Super Speed, Super Strength, Teleportation;65;94;74;49;Good;Alien;127.49;535.84;0.0;0.0;1.0
+Anti-Venom;Eddie Brock;Other;18/8/64;Accelerated Healing, Camouflage, Danger Sense, Durability, Elasticity, Enhanced Senses, Reflexes, Shapeshifting, Stamina, Super Strength, Symbiote Costume, Toxin and Disease Resistance, Wallcrawling, Web Creation;71;99;69;90;Neutral;Human;48.6;418.69;0.0;0.0;0.0
+Apocalypse (FOX);En Sabah Nur;Shueisha;27/11/84;;6;58;14;48;Bad;Human;67.51;208.71;0.0;1.0;0.0
+Aquababy;Arthur Curry, Jr.;DC_Comics;23/4/57;Super Strength, Underwater breathing, Water Control;15;33;57;32;Neutral;God_Eternal;209.23;48.44;1.0;0.0;0.0
+Aquagirl I;Tula;Marvel_Comics;20/10/56;Durability, Invulnerability, Self-Sustenance, Super Speed, Super Strength, Telepathy;83;91;80;28;Neutral;Mutant;97.89;868.93;0.0;0.0;0.0
+Aqualad II;Jackson Hyde;Other;22/1/60;Adaptation, Durability, Electrokinesis, Element Control, Enhanced Hearing, Enhanced Senses, Enhanced Sight, Invulnerability, Reflexes, Stamina, Super Speed, Super Strength, Underwater breathing, Water Control;35;57;28;36;Good;Alien;151.52;398.81;0.0;0.0;0.0
+Aqualad;Garth;Dark_Horse_Comics;26/2/36;;75;29;49;45;Bad;God_Eternal;136.97;194.48;0.0;1.0;1.0
+Aquaman (Injustice);Arthur Curry;Dark_Horse_Comics;13/4/94;Accelerated Healing, Agility, Animal Control, Cold Resistance, Durability, Electrokinesis, Element Control, Enhanced Senses, Heat Resistance, Intelligence, Longevity, Peak Human Condition, Portal Creation, Reflexes, Self-Sustenance, Stamina, Stealth, Sub-Mariner, Summoning, Super Speed, Super Strength, Telepathy, Vision - Night, Water Control, Weapon-based Powers, Weapons Master;7;20;94;49;Good;MetaHuman;238.39;284.22;0.0;0.0;0.0
+Aquaman;Orin;DC_Comics;13/11/55;;93;13;13;11;Good;Alien;94.64;506.21;0.0;0.0;0.0
+Aracnido Jr.;;Other;13/10/73;Agility, Wallcrawling, Web Creation;99;35;22;93;Good;Alien;26.75;682.61;1.0;0.0;0.0
+Aragorn;Aragorn II Elessar;Dark_Horse_Comics;8/3/64;Accelerated Healing, Agility, Empathy, Intelligence, Longevity, Marksmanship, Omnilingualism, Stamina, Stealth, Weapon-based Powers, Weapons Master;48;87;10;43;Good;MetaHuman;112.44;820.83;0.0;1.0;0.0
+Archangel (FOX);Warren Kenneth Worthington III;Dark_Horse_Comics;24/11/04;Flight, Gliding;47;29;11;59;Neutral;Human;116.6;611.88;0.0;0.0;0.0
+Archangel;Warren Kenneth Worthington III ;Shueisha;24/8/90;;87;41;10;72;Good;Mutant;159.42;328.17;0.0;0.0;0.0
+Arclight;Philippa Sontag;Lego;28/9/49;Durability, Seismic Power, Stamina, Super Strength;33;6;35;47;Neutral;Mutant;234.75;479.26;0.0;0.0;0.0
+Arcturus;Arcturus;Shueisha;24/8/86;Accelerated Healing, Agility, Animal Attributes, Animal Control, Animal Oriented Powers, Camouflage, Cold Resistance, Durability, Endurance, Energy Resistance, Enhanced Hearing, Enhanced Memory, Enhanced Senses, Enhanced Sight, Enhanced Smell, Enhanced Touch, Fire Resistance, Heat Resistance, Intelligence, Invulnerability, Longevity, Marksmanship, Natural Armor, Natural Weapons, Peak Human Condition, Reflexes, Regeneration, Self-Sustenance, Stamina, Stealth, Summoning, Super Speed, Super Strength, Toxin and Disease Resistance, Vision - Infrared, Vision - Microscopic, Vision - Night, Vision - Telescopic, Vision - Thermal, Weapon-based Powers, Weapons Master;65;48;89;76;Bad;Mutant;126.38;512.85;1.0;0.0;0.0
+Ardina;Ardina;DC_Comics;20/3/74;Accelerated Healing, Agility, Cold Resistance, Durability, Empathy, Energy Blasts, Energy Manipulation, Enhanced Senses, Flight, Heat Resistance, Invulnerability, Molecular Manipulation, Power Cosmic, Reflexes, Self-Sustenance, Super Speed, Super Strength;25;13;62;63;Neutral;Alien;72.47;617.32;0.0;0.0;0.0
+Ariel;Ariel;Lego;4/12/89;Telepathy, Teleportation;43;66;62;78;Neutral;MetaHuman;237.65;608.17;0.0;0.0;1.0
+Arizona Annie;;Marvel_Comics;26/4/58;Marksmanship, Weapon-based Powers, Weapons Master;70;56;41;10;Bad;Human;29.53;198.67;0.0;0.0;0.0
+Arkade;;Lego;29/1/77;Absorption, Agility, Camouflage, Dexterity, Durability, Endurance, Enhanced Hearing, Enhanced Memory, Enhanced Senses, Enhanced Sight, Enhanced Smell, Enhanced Touch, Heat Resistance, Insanity, Intelligence, Longevity, Marksmanship, Peak Human Condition, Power Suit, Reflexes, Stamina, Stealth, Summoning, Vision - Night, Weapon-based Powers, Weapons Master;70;30;100;13;Neutral;Other;290.98;978.79;0.0;0.0;0.0
+Arkillo;Arkillo;Other;2/11/44;Agility, Durability, Energy Beams, Energy Constructs, Flight, Invulnerability, Lantern Power Ring, Super Speed, Super Strength, Toxin and Disease Resistance;65;20;69;64;Bad;Human;141.26;926.3;0.0;0.0;0.0
+Armor;Hisako Ichiki;Dark_Horse_Comics;15/9/73;Energy Armor, Psionic Powers, Super Strength;80;10;42;48;Neutral;Other;65.86;186.4;0.0;0.0;0.0
+Arnim Zola (MCU);Arnim Zola;Other;4/5/63;Intelligence, Intuitive aptitude;37;11;46;74;Bad;God_Eternal;100.37;805.61;0.0;0.0;0.0
+Arno Victor Dorian;Arno Dorian;Other;23/8/66;Agility, Danger Sense, Durability, Endurance, Enhanced Hearing, Enhanced Senses, Enhanced Sight, Enhanced Smell, Enhanced Touch, Hypnokinesis, Intelligence, Intuitive aptitude, Jump, Marksmanship, Mind Control Resistance, Molecular Combustion, Peak Human Condition, Reflexes, Stamina, Stealth, Vision - Cryo, Weapon-based Powers, Weapons Master;23;42;90;42;Bad;Other;160.52;552.22;0.0;0.0;0.0
+Arnold Flass;Arnold Flass;Dark_Horse_Comics;21/6/93;Law Manipulation, Master Martial Artist, Weapon-based Powers, Weapons Master;33;74;65;91;Bad;Alien;209.26;885.03;0.0;0.0;0.0
+Arsenal (CW);Roy Harper;DC_Comics;28/7/94;Agility, Marksmanship, Peak Human Condition, Reflexes, Weapon-based Powers, Weapons Master;55;10;10;16;Good;Human;72.33;632.42;0.0;0.0;0.0
+Arsenal;Roy William Harper, Jr.;DC_Comics;31/1/87;Agility, Marksmanship, Weapon-based Powers, Weapons Master;49;66;46;71;Bad;God_Eternal;291.83;837.82;0.0;0.0;0.0
+Artemis (CW);Evelyn Sharp;DC_Comics;11/10/95;;12;6;48;14;Good;Other;23.85;217.98;0.0;1.0;0.0
+Arthur Dayne;;Lego;25/7/09;Dexterity, Reflexes, Stamina, Weapons Master;36;58;23;68;Neutral;Human;22.86;251.8;1.0;0.0;0.0
+Ash;Ash;Lego;8/4/42;Agility, Cold Resistance, Dexterity, Durability, Element Control, Endurance, Fire Resistance, Heat Resistance, Intangibility, Intelligence, Invisibility, Marksmanship, Peak Human Condition, Phasing, Reflexes, Shapeshifting, Smoke Manipulation, Stamina, Stealth, Teleportation, Weapons Master;84;90;87;16;Good;Alien;275.0;685.56;0.0;0.0;0.0
+Aspheera;Aspheera;Marvel_Comics;26/10/45;Ability Shift, Absorption, Accelerated Healing, Adaptation, Agility, Animal Attributes, Animal Control, Animal Oriented Powers, Banish, Cold Resistance, Darkforce Manipulation, Dexterity, Dream Manipulation, Dream Manipulation, Durability, Element Control, Endurance, Energy Absorption, Enhanced Hearing, Enhanced Memory, Enhanced Senses, Enhanced Sight, Enhanced Smell, Existence Erasure, Fire Control, Fire Resistance, Flight, Force Fields, Heat Generation, Heat Resistance, Illusions, Immortality, Insanity, Intelligence, Invisibility, Invulnerability, Longevity, Magic, Magic Resistance, Marksmanship, Master Tactician, Matter Absorption, Melting, Memory Manipulation, Natural Armor, Natural Weapons, Peak Human Condition, Perfect Recollection, Photographic Reflexes, Power Absorption, Power Augmentation, Power Nullifier, Reflexes, Self-Sustenance, Smoke Manipulation, Spinjitzu, Stamina, Stealth, Summoning, Super Speed, Super Strength, Teleportation, Weapon-based Powers, Weapons Master;66;89;19;67;Good;MetaHuman;93.33;49.19;0.0;0.0;0.0
+Asura;Asura;Marvel_Comics;12/1/10;;6;51;71;69;Good;Other;59.51;970.8;0.0;1.0;1.0
+Yasha (Brother-in-law);;Other;12/4/96;;55;50;50;50;Bad;God_Eternal;65.82;703.8;0.0;0.0;0.0
+Atom (CW);Ray Palmer;Shueisha;6/6/55;;73;42;21;79;Bad;Alien;202.17;326.73;0.0;0.0;0.0
+Atom Girl;Salu Digby;Lego;12/6/18;Size Changing;45;98;55;78;Neutral;Human;152.79;183.86;1.0;0.0;0.0
+Atom II;Ray Palmer;DC_Comics;24/5/79;;13;84;90;76;Bad;God_Eternal;37.29;934.34;0.0;1.0;0.0
+Atom III;Adam Cray;Shueisha;24/5/56;Size Changing;61;92;38;8;Neutral;MetaHuman;133.2;184.73;0.0;0.0;0.0
+Atom IV;Ryan Choi;Marvel_Comics;17/6/46;;78;47;13;6;Good;Human;118.51;709.13;0.0;0.0;0.0
+Atom Smasher (CW);Al Rothstein;DC_Comics;28/2/81;;64;93;37;33;Neutral;Mutant;185.11;901.44;0.0;0.0;0.0
+Atomic Skull;Joseph Martin;Dark_Horse_Comics;7/1/01;Agility, Energy Absorption, Energy Armor, Energy Beams, Energy Blasts, Energy Constructs, Flight, Heat Generation, Invulnerability, Power Suit, Radiation Absorption, Radiation Control, Stamina, Stealth, Super Speed, Super Strength;69;82;98;73;Good;God_Eternal;147.83;394.13;1.0;0.0;0.0
+Atomica;Rhonda Pineda;DC_Comics;16/6/36;Agility, Intelligence, Size Changing, Stealth;35;76;6;98;Neutral;MetaHuman;167.76;899.43;0.0;0.0;0.0
+Attuma;Attuma;Marvel_Comics;13/5/88;Adaptation, Agility, Cold Resistance, Durability, Endurance, Energy Resistance, Enhanced Hearing, Enhanced Memory, Enhanced Senses, Enhanced Sight, Enhanced Smell, Enhanced Touch, Fire Resistance, Heat Resistance, Invulnerability, Reflexes, Stamina, Sub-Mariner, Super Speed, Super Strength, Toxin and Disease Resistance, Underwater breathing;20;65;13;68;Neutral;Alien;167.84;702.91;0.0;0.0;1.0
+Aurora;Jeanne-Marie Beaubier;Marvel_Comics;17/12/56;Accelerated Healing, Durability, Energy Blasts, Flight, Illumination, Light Control, Molecular Combustion, Molecular Manipulation, Reflexes, Super Speed;55;63;39;22;Bad;MetaHuman;236.51;910.83;0.0;0.0;0.0
+Avatar Korra;Korra;Other;18/4/49;Accelerated Healing, Agility, Density Control, Element Control, Energy Manipulation, Fire Control, Heat Generation, Stamina, Super Breath, Super Strength, Water Control, Weather Control, Wind Control;71;33;69;54;Good;Other;50.64;378.33;0.0;0.0;0.0
+Azrael (Gotham);Theo Galavan;Other;28/12/04;Accelerated Healing, Agility, Durability, Endurance, Intelligence, Intuitive aptitude, Marksmanship, Peak Human Condition, Reflexes, Stamina, Stealth, Super Speed, Super Strength, Weapon-based Powers, Weapons Master;13;50;44;100;Bad;Mutant;176.32;130.81;0.0;1.0;0.0
+Aztar;Aztar;Other;22/7/99;;88;25;18;94;Neutral;God_Eternal;90.29;484.07;1.0;0.0;0.0
+Balder;Balder Odinson;Dark_Horse_Comics;25/4/19;Accelerated Healing, Agility, Cold Resistance, Dexterity, Durability, Endurance, Enhanced Senses, Invulnerability, Longevity, Reflexes, Regeneration, Stamina, Super Speed, Super Strength, Toxin and Disease Resistance, Weapons Master;99;70;54;19;Neutral;Human;259.96;941.36;0.0;0.0;0.0
+Bane (Dark Knight);Unknown;Dark_Horse_Comics;3/11/51;Accelerated Healing, Agility, Durability, Endurance, Enhanced Hearing, Enhanced Memory, Enhanced Senses, Intelligence, Longevity, Reflexes, Stamina, Super Strength, Toxin and Disease Resistance, Weapons Master;58;82;85;29;Bad;Alien;164.94;472.05;0.0;0.0;0.0
+Bane (Injustice);Dorrance;Other;16/1/00;Durability, Intelligence, Super Speed, Super Strength, Toxin and Disease Resistance;51;30;28;100;Neutral;Alien;228.03;635.15;0.0;1.0;1.0
+Bane;;Marvel_Comics;20/2/40;;14;42;47;14;Bad;Alien;147.44;74.92;0.0;0.0;0.0
+Banshee (FOX);Sean Cassidy;Marvel_Comics;27/8/97;Echolocation, Enhanced Hearing, Flight, Sonic Scream;36;84;35;64;Neutral;Mutant;90.05;105.35;0.0;0.0;0.0
+Banshee;Sean Cassidy;Marvel_Comics;16/5/43;;49;30;16;63;Bad;MetaHuman;86.97;103.65;1.0;0.0;0.0
+Bantam;Roberto Velasquez;DC_Comics;8/7/45;Durability, Stamina, Super Strength;27;37;52;7;Neutral;Mutant;224.58;713.7;0.0;1.0;0.0
+Barb Wire;Barbara Kopetski;Shueisha;2/9/36;Agility, Dexterity, Durability, Endurance, Intelligence, Jump, Marksmanship, Peak Human Condition, Reflexes, Stamina, Stealth, Toxin and Disease Resistance, Weapon-based Powers, Weapons Master;12;48;91;84;Bad;Other;217.01;55.53;0.0;0.0;0.0
+Baron Mordo (MCU);Karl Mordo;Lego;21/7/96;Absorption, Astral Projection, Dimensional Travel, Force Fields, Magic, Portal Creation, Power Absorption, Teleportation;64;86;81;48;Neutral;Human;180.16;724.73;0.0;0.0;0.0
+Baron Zemo (MCU);Helmut J. Zemo;DC_Comics;20/11/49;Agility, Intelligence, Peak Human Condition, Weapon-based Powers, Weapons Master;97;78;48;12;Neutral;Other;235.32;482.32;0.0;0.0;0.0
+Baron Zemo;Helmut Zemo;DC_Comics;10/4/93;;53;8;20;35;Neutral;Alien;230.28;295.83;1.0;0.0;0.0
+The Kinder (various illegally adopted children);;Shueisha;2/5/88;;31;10;63;34;Good;MetaHuman;99.59;348.61;0.0;0.0;0.0
+Wendell Volker (distant relation);;Lego;12/12/04;;98;79;57;71;Good;Mutant;249.82;135.85;0.0;0.0;1.0
+Ms. Klein (distant relation);;Marvel_Comics;21/4/47;;52;78;78;89;Good;Other;34.96;735.61;0.0;0.0;0.0
+Batcow;None;DC_Comics;4/4/00;Animal Attributes, Animal Oriented Powers;73;54;13;72;Good;Alien;85.71;901.08;0.0;0.0;0.0
+Batgirl III;Helena Rosa Bertinelli;Other;1/1/18;Agility, Dexterity, Durability, Endurance, Gliding, Intelligence, Marksmanship, Peak Human Condition;80;93;73;93;Neutral;MetaHuman;126.48;586.25;0.0;1.0;0.0
+Batgirl (Injustice);Barbara Gordon;Lego;2/6/08;Agility, Dexterity, Durability, Endurance, Gliding, Intelligence, Intuitive aptitude, Marksmanship, Peak Human Condition, Reflexes, Stamina, Stealth, Weapon-based Powers, Weapons Master;50;84;71;83;Neutral;Alien;281.24;829.12;1.0;0.0;0.0
+Batgirl IV;Cassandra Cain;Dark_Horse_Comics;13/7/01;;56;20;59;51;Neutral;Other;246.59;198.11;0.0;0.0;0.0
+Batgirl (New 52);Barbara Gordon;DC_Comics;26/5/91;Agility, Durability, Intelligence, Marksmanship, Peak Human Condition, Reflexes, Stealth, Weapon-based Powers, Weapons Master;71;9;84;12;Neutral;Human;89.96;393.2;0.0;0.0;0.0
+Batgirl VI;Stephanie Brown;Lego;7/10/19;Agility, Marksmanship, Stamina, Weapon-based Powers;29;66;18;20;Neutral;Alien;294.75;190.11;0.0;1.0;1.0
+Batgirl;Barbara Gordon;Lego;22/1/43;Agility, Dexterity, Durability, Endurance, Gliding, Intelligence, Marksmanship, Peak Human Condition, Reflexes, Stamina, Stealth, Weapon-based Powers, Weapons Master;85;14;77;100;Neutral;Mutant;296.54;774.68;0.0;0.0;0.0
+Bathound;Ace;Lego;18/6/78;Danger Sense, Enhanced Hearing, Enhanced Senses, Enhanced Smell;69;96;73;65;Good;Other;73.2;422.56;0.0;0.0;0.0
+Batman (1966);Bruce Wayne;Other;19/2/58;Agility, Audio Control, Cold Resistance, Danger Sense, Electrokinesis, Energy Manipulation, Enhanced Senses, Gliding, Intelligence, Magnetism, Marksmanship, Mind Control Resistance, Stealth, Technopath/Cyberpath, Telepathy Resistance, Toxin and Disease Resistance, Vision - X-Ray, Weapon-based Powers, Weapons Master;57;44;98;20;Neutral;Alien;291.74;41.38;1.0;0.0;0.0
+Batman (Arkham);Bruce Wayne;Dark_Horse_Comics;8/12/06;Agility, Audio Control, Cryokinesis, Electrokinesis, Endurance, Enhanced Hearing, Enhanced Memory, Enhanced Senses, Enhanced Sight, Enhanced Smell, Enhanced Touch, Fire Control, Gliding, Intelligence, Marksmanship, Mind Control Resistance, Peak Human Condition, Reflexes, Stamina, Stealth, Technopath/Cyberpath, Telepathy Resistance, Toxin and Disease Resistance, Vision - X-Ray, Weapon-based Powers, Weapons Master;100;84;76;93;Good;Human;129.8;554.4;0.0;1.0;0.0
+Batman (Burtonverse);Bruce Wayne;Lego;12/12/15;Agility, Durability, Endurance, Fire Resistance, Marksmanship, Reflexes, Stamina, Stealth, Weapon-based Powers, Weapons Master;46;75;25;66;Bad;Mutant;67.94;26.43;0.0;0.0;0.0
+Batman (DC One Million);;Dark_Horse_Comics;26/10/77;;41;53;30;20;Bad;Mutant;127.94;582.13;0.0;0.0;0.0
+Batman (DCAU);Bruce Wayne;Shueisha;29/10/54;Acrobatics, Indomitable Will, Intelligence, Master Martial Artist, Master Tactician, Peak Human Condition, Stealth, Weapon-based Powers, Weapons Master;62;100;34;41;Neutral;Other;278.7;242.46;0.0;0.0;0.0
+Martha Wayne (mother; deceased);Dark_Horse_Comics;22/5/77;;78;89;24;63;Neutral;Other;166.81;683.25;1.0;0.0;0.0
+Andrea Beaumont (ex-fianc√©e);;Lego;1/8/99;;28;20;89;77;Bad;MetaHuman;274.05;903.38;0.0;0.0;0.0
+Terry McGinnis (son);;Other;22/6/49;;27;7;6;80;Good;Mutant;31.5;913.48;0.0;0.0;1.0
+Matt McGinnis (son);;Shueisha;15/6/78;;61;45;59;26;Bad;Mutant;271.74;654.11;0.0;0.0;0.0
+Batman (GAM);Kirk Langstrom;Dark_Horse_Comics;26/2/69;;11;54;41;63;Good;Alien;93.63;161.6;0.0;1.0;0.0
+Batman II;Dick Grayson;Shueisha;11/4/95;Agility, Intelligence, Marksmanship, Peak Human Condition, Stamina, Stealth, Weapon-based Powers, Weapons Master;49;29;47;41;Good;Human;262.05;865.14;1.0;0.0;0.0
+Batman (Injustice);Bruce Wayne;Other;17/5/56;Agility, Durability, Endurance, Gliding, Intelligence, Marksmanship, Peak Human Condition, Reflexes, Stamina, Stealth, Weapon-based Powers, Weapons Master;84;73;20;92;Bad;Human;99.95;331.58;0.0;0.0;0.0
+Batman (LEGO);Bruce Wayne;DC_Comics;26/6/06;Agility, Camouflage, Cold Resistance, Dimensional Awareness, Durability, Fire Control, Fire Resistance, Flight, Gliding, Heat Resistance, Intelligence, Marksmanship, Peak Human Condition, Reflexes, Stamina, Stealth, Super Strength, Vision - Microscopic, Vision - Night, Vision - Telescopic, Weapon-based Powers, Weapons Master;95;24;74;88;Neutral;Human;15.15;194.04;0.0;0.0;0.0
+Batman (The Brave And The Bold);Bruce Wayne;Shueisha;24/5/11;Agility, Flight, Hacking, Intelligence, Marksmanship, Master Martial Artist, Stealth, Weapon-based Powers, Weapons Master;48;80;81;8;Bad;God_Eternal;206.9;350.93;0.0;1.0;1.0
+Batroc The Leaper (MCU);Georges Batroc;Dark_Horse_Comics;8/1/41;Agility, Durability, Marksmanship, Reflexes, Stamina, Stealth;91;97;12;94;Good;MetaHuman;99.94;875.06;0.0;0.0;0.0
+Battle-Suit Batman (DCEU);Bruce Wayne;Marvel_Comics;6/3/79;Agility, Durability, Intelligence, Marksmanship, Peak Human Condition, Power Suit, Reflexes, Stamina, Super Strength, Weapon-based Powers, Weapons Master;43;8;59;8;Bad;MetaHuman;152.97;172.58;0.0;0.0;0.0
+Battlestar;Lemar Hoskins ;Other;23/6/94;Agility, Durability, Reflexes, Stamina, Super Speed, Super Strength;91;19;31;83;Bad;Mutant;261.33;165.69;1.0;0.0;0.0
+Batwoman V;Katherine Rebecca Kane;Marvel_Comics;23/1/06;;48;36;57;45;Bad;MetaHuman;199.46;274.89;0.0;1.0;0.0
+Batwoman;Helena Wayne;Shueisha;23/8/87;Dexterity, Marksmanship, Toxin and Disease Resistance, Weapons Master;100;82;53;96;Neutral;Human;116.28;905.47;0.0;0.0;0.0
+Selina Kyle (mother;);Lego;1/11/85;;69;82;65;86;Bad;Mutant;273.29;237.25;0.0;0.0;0.0
+Thomas Wayne (grandfather;);DC_Comics;24/8/09;;14;43;90;62;Neutral;Alien;165.0;516.18;0.0;0.0;0.0
+Beak;Barnell Bohusk ;Other;7/9/54;Flight, Gliding, Vision - Telescopic;75;23;30;20;Bad;MetaHuman;81.38;153.69;1.0;0.0;0.0
+Beast Boy (Titans);Garfield Logan;Dark_Horse_Comics;25/2/83;Agility, Animal Attributes, Animal Oriented Powers, Durability, Endurance, Natural Weapons, Shapeshifting, Size Changing, Stamina, Stealth, Super Speed, Super Strength;43;26;62;61;Good;MetaHuman;148.49;458.61;0.0;0.0;0.0
+Beast Boy;Garfield Mark Logan;Dark_Horse_Comics;23/7/72;Agility, Animal Attributes, Animal Oriented Powers, Durability, Empathy, Flight, Natural Armor, Natural Weapons, Shapeshifting, Size Changing, Sub-Mariner, Super Speed, Super Strength, Wallcrawling;9;42;87;35;Good;Human;264.96;589.26;0.0;0.0;1.0
+Beast (FOX);Henry Philip McCoy;Shueisha;23/7/86;Agility, Dexterity, Endurance, Intelligence, Super Speed, Super Strength;49;74;54;87;Bad;Alien;223.06;59.97;0.0;0.0;0.0
+Beetle;Abner Jenkins;Shueisha;2/9/38;Element Control, Fire Control, Flight, Intelligence, Power Suit, Weapon-based Powers, Weapons Master;56;96;72;14;Neutral;MetaHuman;266.86;897.03;0.0;1.0;0.0
+Bekka;Bekka;Marvel_Comics;12/7/22;Cold Resistance, Empathy, Flight, Heat Resistance, Immortality, Invulnerability, Longevity, Super Speed, Super Strength, Toxin and Disease Resistance;22;85;38;11;Good;God_Eternal;212.92;76.68;1.0;0.0;0.0
+Ben 10;Benjamin Kirby Tennyson;Other;27/6/67;Agility, Cold Resistance, Cryokinesis, Dexterity, Duplication, Durability, Elasticity, Energy Absorption, Energy Beams, Energy Manipulation, Enhanced Hearing, Enhanced Smell, Fire Control, Fire Resistance, Flight, Heat Resistance, Intangibility, Intelligence, Invulnerability, Jump, Light Control, Omnitrix, Plant Control, Power Cosmic, Reflexes, Size Changing, Sonic Scream, Super Speed, Super Strength, Technopath/Cyberpath, Telekinesis, Underwater breathing, Wallcrawling, Web Creation;74;92;39;42;Good;God_Eternal;28.18;558.38;0.0;0.0;0.0
+Beta Ray Bill;Beta Ray Bill;DC_Comics;20/11/43;Accelerated Healing, Immortality, Invulnerability, Stamina, Super Speed, Super Strength, Toxin and Disease Resistance;33;85;55;67;Good;Other;207.36;406.5;0.0;0.0;0.0
+Beyonder;;DC_Comics;5/6/44;;40;19;88;75;Good;MetaHuman;157.55;190.49;0.0;1.0;1.0
+Big Barda;Barda Free;Lego;17/2/45;;38;6;79;75;Good;Mutant;193.08;518.37;0.0;0.0;0.0
+Big Boss;John;Marvel_Comics;31/3/53;;10;41;30;12;Good;Mutant;151.44;520.95;0.0;0.0;0.0
+Big Daddy;Damon Macready;DC_Comics;26/3/99;Stamina;83;11;49;73;Bad;Mutant;181.22;776.64;1.0;0.0;0.0
+Big Man;Frederick Foswell;Marvel_Comics;20/12/62;Marksmanship;37;41;8;88;Good;Human;90.84;618.24;0.0;1.0;0.0
+Bill Harken;;Dark_Horse_Comics;8/3/54;Super Speed, Super Strength, Toxin and Disease Resistance;25;45;72;11;Neutral;Human;187.88;297.7;0.0;0.0;0.0
+Billy Kincaid;Billy Kincaid;Dark_Horse_Comics;30/5/82;Possession;90;34;14;60;Good;Human;146.47;945.58;0.0;0.0;0.0
+Binary;Carol Danvers;Shueisha;16/4/66;Dexterity, Durability, Energy Absorption, Energy Beams, Energy Blasts, Energy Constructs, Energy Manipulation, Flight, Gravity Control, Invulnerability, Matter Manipulation, Molecular Manipulation, Precognition, Super Speed, Super Strength;27;65;85;19;Bad;God_Eternal;91.79;328.93;0.0;0.0;0.0
+Bird-Brain;;Other;9/2/83;;70;66;27;32;Good;Mutant;293.01;386.58;1.0;0.0;0.0
+Bird-Man II;Achille DiBacco;Other;25/7/01;Flight, Power Suit;79;76;15;41;Good;Alien;23.62;90.38;0.0;0.0;0.0
+Bird-Man;Henry Hawk;DC_Comics;20/2/77;Animal Oriented Powers, Flight, Natural Weapons, Super Strength;48;57;61;69;Neutral;God_Eternal;262.31;191.98;0.0;0.0;1.0
+Bird;Birdy Colossimo;Other;9/9/86;Animal Control, Master Martial Artist, Summoning;13;51;7;74;Bad;God_Eternal;43.65;928.69;0.0;0.0;0.0
+Birdman;Ray Randal;Marvel_Comics;10/8/08;Agility, Animal Attributes, Animal Oriented Powers, Energy Absorption, Energy Blasts, Energy Constructs, Energy Manipulation, Enhanced Sight, Flight, Force Fields, Gliding, Illumination, Immortality, Intelligence, Light Control, Longevity, Marksmanship, Reflexes, Stamina, Super Speed, Super Strength, Weapons Master;15;39;11;15;Neutral;Mutant;263.25;503.54;0.0;0.0;1.0
+Bishop (Fox);Lucas Bishop;Lego;18/1/05;;17;50;77;60;Bad;MetaHuman;246.36;952.78;0.0;1.0;0.0
+Bishop;Lucas Bishop;DC_Comics;25/6/50;;97;12;31;42;Good;God_Eternal;87.46;413.52;1.0;0.0;0.0
+Bizarro;Bizarro;Other;6/4/93;;49;23;90;30;Bad;MetaHuman;15.02;456.58;0.0;0.0;0.0
+Black Abbott;;Lego;10/8/63;;54;61;74;67;Good;God_Eternal;244.04;749.46;0.0;0.0;0.0
+Black Adam (New 52);Teth-Adam;Other;9/4/48;Accelerated Healing, Clairvoyance, Cold Resistance, Durability, Electrokinesis, Energy Absorption, Energy Beams, Energy Blasts, Energy Manipulation, Energy Resistance, Enhanced Hearing, Enhanced Memory, Enhanced Senses, Enhanced Sight, Enhanced Smell, Enhanced Touch, Fire Resistance, Heat Resistance, Intelligence, Invulnerability, Longevity, Magic, Self-Sustenance, Stamina, Super Speed, Super Strength, Telekinesis, Toxin and Disease Resistance;35;44;98;23;Neutral;God_Eternal;102.12;893.43;0.0;1.0;1.0
+Aman (nephew; deceased);Shueisha;13/3/53;;21;87;10;85;Bad;Other;123.92;169.57;0.0;0.0;0.0
+Black Adam (Pre-Crisis);Teth-Adam;Shueisha;12/2/10;Accelerated Healing, Clairvoyance, Durability, Electrokinesis, Element Control, Endurance, Energy Resistance, Enhanced Memory, Flight, Intelligence, Invulnerability, Magic, Magic Resistance, Marksmanship, Probability Manipulation, Reflexes, Self-Sustenance, Stamina, Super Speed, Super Strength, Teleportation;62;70;52;31;Bad;God_Eternal;22.35;318.72;0.0;0.0;0.0
+Black Adam;Teth-Adam;Lego;27/10/47;;97;100;23;41;Bad;Alien;194.69;609.33;1.0;0.0;0.0
+Black Alice;Lori Zechlin;Other;4/2/67;Ability Shift, Absorption, Acausality, Accelerated Healing, Afterimage Creation, Agility, Animal Attributes, Animal Control, Animal Oriented Powers, Animated Shadow, Animation, Anti-Gravity, Apotheosis, Astral Projection, Astral Trap, Astral Travel, Audio Control, Banish, Chaos Magic, Clairvoyance, Cloaking, Cold Resistance, Conceptual Manipulation, Cryokinesis, Danger Sense, Darkforce Manipulation, Density Control, Dimensional Awareness, Dimensional Travel, Dream Manipulation, Dream Manipulation, Electrokinesis, Element Control, Empathy, Endurance, Energy Absorption, Energy Beams, Energy Blasts, Energy Constructs, Energy Manipulation, Enhanced Hearing, Enhanced Memory, Enhanced Senses, Enhanced Sight, Enhanced Smell, Explosion Manipulation, Fear Manipulation, Fire Control, Fire Resistance, Flight, Gravity Control, Heat Resistance, Hypnokinesis, Illumination, Illusions, Immortality, Instinctive Reaction, Intangibility, Intuitive aptitude, Invisibility, Invulnerability, Jump, Levitation, Light Control, Longevity, Magic, Marksmanship, Matter Absorption, Matter Manipulation, Mind Blast, Mind Control, Mind Control Resistance, Molecular Manipulation, Necromancy, Omnilingualism, Orbing, Pain Manipulation, Phasing, Plant Control, Portal Creation, Possession, Power Absorption, Power Mimicry, Power Nullifier, Precognition, Probability Manipulation, Projection, Psionic Powers, Reactive Power Level, Reality Warping, Reflexes, Regeneration, Resurrection, Seismic Power, Shapeshifting, Size Changing, Sleep Manipulation, Smoke Manipulation, Sonic Scream, Soul Manipulation, Spatial Awareness, Stealth, Summoning, Super Speed, Super Strength, Telekinesis, Telepathy, Telepathy Resistance, Teleportation, Terrakinesis, Time Manipulation, Time Travel, Toxin and Disease Resistance, Underwater breathing, Vision - Heat, Vision - Infrared, Vision - Microscopic, Vision - Night, Vision - Telescopic, Vision - Thermal, Vision - X-Ray, Water Control, Weapons Master, Weather Control, Wind Control, Wishing;41;97;75;23;Good;God_Eternal;30.62;891.68;0.0;1.0;0.0
+Black Bolt (MCU);Blackagar Boltagon;Marvel_Comics;10/3/93;Agility, Audio Control, Durability, Endurance, Energy Blasts, Intelligence, Marksmanship, Reflexes, Sonic Scream, Stamina, Super Strength;14;16;61;73;Good;Mutant;73.83;923.94;0.0;0.0;0.0
+Black Bolt;Blackagar Boltagon;Dark_Horse_Comics;9/1/48;;92;71;33;25;Neutral;Alien;263.7;990.28;0.0;0.0;0.0
+Black Canary (CW);Laurel Lance;Lego;18/3/81;Agility, Audio Control, Sonic Scream, Weapon-based Powers, Weapons Master;13;37;27;68;Bad;God_Eternal;65.94;335.42;0.0;0.0;0.0
+Black Canary II (CW);Dinah Drake;Dark_Horse_Comics;27/5/09;Agility, Audio Control, Peak Human Condition, Sonic Scream;50;77;14;6;Neutral;Mutant;34.2;674.26;1.0;0.0;0.0
+Black Canary (Injustice);Dinah Laurel Lance;DC_Comics;28/2/68;Peak Human Condition, Sonic Scream, Stealth;74;100;35;99;Good;Alien;209.37;653.01;0.0;0.0;0.0
+Black Canary;Laurel Lance;Lego;14/11/95;;48;76;63;67;Good;MetaHuman;55.81;646.66;0.0;0.0;1.0
+Black Cat (earth 1610);Felicia Hardy;Lego;1/12/42;Agility, Danger Sense, Enhanced Senses, Probability Manipulation, Vision - Night;39;61;60;14;Neutral;Human;83.43;845.01;0.0;0.0;0.0
+Black Cat (Earth 65);Felicia Hardy;Dark_Horse_Comics;20/9/37;Danger Sense, Enhanced Senses, Probability Manipulation, Stealth, Weapons Master;17;32;81;40;Good;Alien;22.85;594.3;0.0;1.0;0.0
+Black Cat (Edge of Time);Felicia Hardy;Lego;22/12/77;Animal Oriented Powers, Danger Sense, Enhanced Senses, Probability Manipulation, Teleportation;84;80;86;42;Good;Other;16.97;395.71;1.0;0.0;0.0
+Black Cat (PS4);Felicia Hardy;Dark_Horse_Comics;24/7/67;Probability Manipulation, Reflexes, Stamina, Super Speed, Super Strength, Vision - Infrared, Weapons Master;67;46;85;39;Neutral;Mutant;29.87;539.3;0.0;0.0;0.0
+Black Cat;Felicia Hardy;Shueisha;22/11/01;;53;87;27;61;Neutral;Alien;41.15;865.78;0.0;0.0;0.0
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;
