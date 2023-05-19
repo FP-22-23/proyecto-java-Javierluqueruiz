@@ -7,7 +7,7 @@ public class TestFactoriaSuperHeroes {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		testLeerSuperheroes("data/superheroes_prueba.csv");
+		testLeerSuperheroes("data/superheroes.csv");
 	}
 	
 	private static void testLeerSuperheroes(String fichero) {

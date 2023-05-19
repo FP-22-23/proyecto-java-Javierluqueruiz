@@ -3,10 +3,12 @@ package fp.heroe;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Map;
 import java.util.Objects;
 import java.util.Set;
-import java.util.SortedSet;
+import java.util.SortedMap;
+import java.util.TreeMap;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -26,6 +28,10 @@ public class Superheroes {
 	
 	public Superheroes(Set<Superheroe> sh) {
 		this.superheroes = sh;
+	}
+	
+	public Superheroes(Stream<Superheroe> sh) {
+		this.superheroes = sh.collect(Collectors.toSet());
 	}
 
 	
@@ -76,11 +82,11 @@ public class Superheroes {
 	
 	//1.Existe
 
-	public  Boolean existeSuperheroePosicionamientoRaza(Posicionamiento p, Raza r) {
+	public  Boolean existeSuperheroeRazaTelepatiaInmortal(Raza r) {
 		Boolean res = false;
 		
 		for(Superheroe sh:superheroes) {
-			if(sh.getPosicionamiento().equals(p) && sh.getRaza().equals(r)){
+			if(sh.getRaza().equals(r) && sh.getTieneTelepatia() == true && sh.getTieneInmortabilidad() == true){
 				res = true;
 				break;
 			}
@@ -177,9 +183,11 @@ public class Superheroes {
 	
 	//1. Existe (Con Stream)
 		
-		public  Boolean existeSuperheroePosicionamientoRazaStream(Posicionamiento p, Raza r) {
-			return superheroes.stream().allMatch(x -> x.getPosicionamiento().equals(p)
-					&& x.getRaza().equals(r));
+		public  Boolean existeSuperheroeRazaTelepatiaInmortalStream(Raza r) {
+			return superheroes.stream()
+					          .anyMatch(x -> x.getTieneInmortabilidad().equals(true)
+					           && x.getRaza().equals(r)
+					           && x.getTieneTelepatia().equals(true));
 		}
 		
 		
@@ -191,8 +199,6 @@ public class Superheroes {
 									   .mapToDouble(x->x.getPuntuajeMedio())
 									   .average()
 									   .orElse(0);
-					
-			
 		}
 	
 		
@@ -216,15 +222,58 @@ public class Superheroes {
 		
 	//5. Selección con filtrado y ordenación (Con Stream)
 		
-		public Set<Superheroe> getNSuperheroesMayorPuntuajeMedioCreador(Creador c, Integer n) {
+		public Set<Superheroe> getSuperheroesMayorPuntuajeMedioCreador(Creador c) {
 			
 			
 			return superheroes.stream()
 					          .filter(x->x.getCreador().equals(c))
-					          .sorted(Comparator.comparing(Superheroe::getPuntuajeMedio))
-					          //.limit(n)
+					          .sorted(Comparator.comparing(Superheroe::getPuntuajeMedio).reversed())
 					          .collect(Collectors.toSet());
 		}
+		
+	//Bloque 2
+		
+	//6. Map diccionario de agrupación (Con Stream)
+		public Map<Creador, List<Superheroe>> getSuperheroePorCreadorStream(){
+			
+			return superheroes.stream()
+					          .collect(Collectors.groupingBy(Superheroe::getCreador));
+		}
+	
+	//7. Método con "collectingAndThen"
+		public Map<Posicionamiento, Superheroe> getSuperheroesMayorPuntuajeMedioPosicionamiento(){
+			return superheroes.stream()
+							  .collect(Collectors.groupingBy(Superheroe::getPosicionamiento, 
+							   Collectors.collectingAndThen(Collectors.maxBy(Comparator.comparing(Superheroe::getPuntuajeMedio)), opt -> opt.get())));
+							  
+		}
+		
+	//8. Map<Atributo, Máximo/Mínimo>
+		public Map<Creador, Superheroe> getSuperheroesMasAntiguosPorCreador(){
+			return superheroes.stream()
+					          .collect(Collectors.groupingBy(Superheroe::getCreador, 
+					           Collectors.collectingAndThen(Collectors.minBy(Comparator.comparing(Superheroe::getFechaCreacion)), opt->opt.get())));
+		}
+	
+		
+	//9. SortedMap<Atributo, nMejores/nPeores>
+		public SortedMap<Raza, List<Superheroe>> obtenerNSuperheroesMayorAlturaPorRaza(Integer n){
+			return superheroes.stream()
+					  	      .sorted(Comparator.comparing(Superheroe::getAltura).reversed())
+					  	      .collect(Collectors.groupingBy(Superheroe::getRaza, TreeMap::new, Collectors.collectingAndThen(Collectors.toList(),  x-> x.subList(0, n))));
+		}
+		
+	//10. Clave con valor asociado(Mayor o menor) de un Map
+		
+		public Raza getMaxContadorPesoPorRaza() {
+			Map<Raza, Double> map = superheroes.stream()
+										.collect(Collectors.groupingBy(Superheroe::getRaza, Collectors.summingDouble(Superheroe::getPeso)));
+			return map.entrySet().stream()
+					 	         .max(Comparator.comparing(x->x.getValue()))
+					 	         .get().getKey();
+				
+		}
+		
 		
 		
 }

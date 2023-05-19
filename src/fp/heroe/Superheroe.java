@@ -1,6 +1,6 @@
 package fp.heroe;
 
-import java.sql.Date;
+
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
@@ -231,7 +231,7 @@ public class Superheroe implements Comparable<Superheroe> {
 				+ ", tieneInmortabilidad=" + tieneInmortabilidad + "]";
 	}
 
-//Criterio de igualdad
+    //Criterio de igualdad
 	@Override
 	public int hashCode() {
 		return Objects.hash(creador, nombreReal, nombreSuperheroe, poderes, raza);
@@ -251,6 +251,7 @@ public class Superheroe implements Comparable<Superheroe> {
 				&& Objects.equals(nombreSuperheroe, other.nombreSuperheroe) && raza == other.raza;
 	}
 
+	
 	//Orden natural
 	
 	public int compareTo(Superheroe o) {

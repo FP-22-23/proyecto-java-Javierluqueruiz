@@ -42,6 +42,9 @@ El dataset usado en este proyecto tiene 16 columnas, 9 se han tomado del dataset
 * **\<has_magic>**: de tipo Doble, representa la capacidad del superhéroe de dominar la magia. El valor 1.0 representa True; mientras que el valor 0.0 representa False.
 * **\<has_inmortality>**: de tipo Doble, representa la capacidad del superhéroe de ser inmortal. El valor 1.0 representa True; mientras que el valor 0.0 representa False.
 
+
+Con motivo de optimizar las clases de Test, he creado un archivo csv más reducido del orgiginal, que cuenta con 190 filas, ya que las funciones que devuelven colecciones eran tan grandes que en la consola de Eclipse no se podían ver las demás funciones. Se ha llamado "dataset_prueba.csv" y se ha utilizado en aquellas funciones que ocupaban demasiado espacio.
+
 ## Tipos implementados
 
 Los tipos que se han implementado en el proyecto son los siguientes:
@@ -102,6 +105,8 @@ Clase de factoría para construir objetos de tipo Partidas. Contiene varios mét
 
 - Superheroes leerSuperheroes(String rutaFichero)_:Crea un objeto de tipo Superheroes a partir de la información recogida en el archivo csv, cuya ruta se da como parámetro.
 
+- Superheroes leerSuperheroesStream(String rutaFichero)_: Crea un objeto de tipo Superheroes a partir de la información recogida en el archivo csv, cuya ruta se da como parámetro. En este caso, utiliza el constructor a partir de Stream que se describe en el apartado "Constructores".
+
 
 ### Tipo Contenedor - Superheroes
 
@@ -111,12 +116,12 @@ Clase contenedora de los objetos de tipo Superheroe.
 
 - _Superheroes_, de tipo Set\<Superheroe\>, consultable. Lista de superheroes,
 
-- 
+
 **Constructores**: 
 
 - C1: Constructor por defecto.
 - C2: Constructor con un parámetro de tipo Collection\<Superheroe\>. Crea un objeto de tipo Superheroes con los superheroes incluidos en la colección dada como parámetro.
-- ...
+- C3: Constructor con un parámtero de tipo Stream\<Superheroe\>. Crea un objeto de tipo Superheroes con los superheroes incluidos en el stream dado como parámetro.
 
 **Criterio de igualdad**: Dos collecciones Superheroes son iguales si lo son sus propiedades Superheroe.
 
@@ -127,10 +132,38 @@ Clase contenedora de los objetos de tipo Superheroe.
 - _void añadirSuperheroe(Superheroe sh)_ : Añade un Superheroe al objeto.
 - _void añadirCollecciónSuperheroes(Set\<Superheroe\> sh)_: Añade un conjunto de Superheroes al objeto.
 - _void eliminarSuperheroe(Superheroe sh)_: Elimina el Superheroe indicado como parámetro del objeto.
-- _Boolean existeSuperheroePosicionamientoRaza(Posicionamiento p, Raza r)_: Devuelve true si existe un Superheroe tal que su propiedad posicionamiento y su propiedad raza conincidan con el posicionamiento y la raza dados como parámetros, respectivamente. De lo contrario, devuelve false.
+
+- _Boolean existeSuperheroeRazaTelepatiaInmortal(Raza r)_: Devuelve true si existe un Superheroe tal que su propiedad raza conincidan con la raza dada como parámetro, y además, que sus propiedades tieneTelepatía y tieneInmortalidad sean true. De lo contrario, devuelve false.
+
 - _Double getMediaPuntuajeAño(Integer year):_Devuelve la media del puntuaje medio de los Superhéroes cuyos años de creación coincidan con el año dado como parámetro.
+
 - _Set\<Superheroe\>_ getSuperheroeCercanosAltura(Double altura, Double d):_Devuelve un conjunto de Superheroes cuya altura esté dentro del intervalo (altura-d, altura+d), siendo altura y d los parámetros.
+
 - _Map<Creador, Set\<Superheroe\>> getSuperheroePorCreador():_ Devuelve un Map en el que las claves son los distintos valores del enum Creador, y los valores son conjuntos de los Superheroes cuyo valor de la propiedad Creador conincidan con la clave a la que estén asociados.
 
 - _Map<Integer, Long> getNumeroSuperheroePorAño():_ Devuelve un Map en el que las claves son los distintos años de creación de los Superheroes, y los valores son el número de superhéroes cuya fecha de creación coincida con la clave.
+
+ENTREGA 3(Métodos con Stream)
+
+BLOQUE I
+- _Boolean existeSuperheroeRazaTelepatiaInmortalStream(Raza r):_ La misma descripción que el método "existeSuperheroeRazaTelepatiaInmortal", descrita anteriormente, implementado con Stream.
+
+- _Double getMediaPuntuajeAñoStream(Integer year):_ La misma descripción que el método "getMediaPuntuajeAño", descrita anteriormente, solo que se ha implementado con Stream.
+
+- _Set\<Superheroe\> getSuperheroeCercanosAlturaStream(Double altura, Double d):_ La misma descripción que el método "getSuperheroeCercanosAltura", descrita anteriormente, solo que se ha implementado con Stream.
+
+- _Superheroe getSupeheroeMayorPuntuajeMedioPosicionamiento(Posicionamiento p):_ Devuelve el Superheroe que tenga el mayor puntuajeMedio de entre los superheroes cuyo posicionamiento sea igual al dado como parámetro.
+
+- _Set\<Superheroe\> getNSuperheroesMayorPuntuajeMedioCreador(Creador c, Integer n):_ Devuelve un conjunto con los n superhéroes que tengan el mayor puntuaje medio de entre todos los superheroes cuyo Creador coincida con el parámetro.
+
+BLOQUE II
+- _Map\<Creador, List\<Superheroe\>\>getSuperheroePorCreadorStream():_ La misma descripción que el método "getSuperheroePorCreador", descrita anteriormente, solo que se ha implementado con Stream.
+
+- _Map\<Creador, Superheroe\> getSuperheroesMayorPuntuajeMedioPosicionamiento():_ Devuelve un Map en el que las claves son los distintos valores del enum Posicionamiento, y los valores son los superhéroes que tienen el mayor puntuajeMedio por cada Creador.
+
+- _Map\<Creador, Superheroe\> getSuperheroesMasAntiguosPorCreador():_ Devuelve un diccionario en el que las claves son los distintos valores del enum Creador, y los valores son los superheroes más antiguos por cada creación.
+
+- _SortedMap\<Raza, List\<Superheroe\>\> obtenerNSuperheroesMayorAlturaPorRaza(Integer n):_ Devuelve un diccionario en el que las claves son los distintos valores del enum Raza, y los valores son los n superhéroes más altos por cada raza.
+
+- _Raza getMaxContadorPesoPorRaza():_ Devuelve la Raza cuyos superhéroes tengan el mayor peso. Para ello, primero clasifica los superhéroes por Raza, luego suma todos los pesos por cada raza y al final elige la Raza que tenga la mayor suma.
 

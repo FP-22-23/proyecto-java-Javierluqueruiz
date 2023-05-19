@@ -2,8 +2,7 @@ package fp.heroe.test;
 
 import fp.heroe.FactoriaSuperHeroes;
 import fp.heroe.Superheroes;
-import fp.common.Creador;
-import fp.common.Posicionamiento;
+
 import fp.common.Raza;
 
 public class TestSuperheroes {
@@ -11,13 +10,13 @@ public class TestSuperheroes {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Superheroes superheroes = FactoriaSuperHeroes.leerSuperheroes("data/superheroes.csv");
-		//Superheroes superheroes2 = FactoriaSuperHeroes.leerSuperheroes("data/superheroes2.csv");
+		Superheroes superheroes_prueba = FactoriaSuperHeroes.leerSuperheroes("data/superheroes_prueba.csv");
 		
 		System.out.println("\ntestExisteSuperheroePosicionamientoRaza");
 		System.out.println("=========================================");
-		testExisteSuperheroePosicionamientoRaza(superheroes, Posicionamiento.GOOD, Raza.ALIEN);
-		testExisteSuperheroePosicionamientoRaza(superheroes, Posicionamiento.BAD, Raza.METAHUMAN);
-		testExisteSuperheroePosicionamientoRaza(superheroes, Posicionamiento.NEUTRAL, Raza.OTHER);
+		testExisteSuperheroeRazaTelepatiaInmortal(superheroes, Raza.HUMAN);
+		testExisteSuperheroeRazaTelepatiaInmortal(superheroes, Raza.METAHUMAN);
+		testExisteSuperheroeRazaTelepatiaInmortal(superheroes, Raza.OTHER);
 		
 		
 		System.out.println("\ntestGetMediaPuntuajeAño");
@@ -26,59 +25,27 @@ public class TestSuperheroes {
 		testGetMediaPuntuajeAño(superheroes, 1986);
 		testGetMediaPuntuajeAño(superheroes, 2010);
 		
-		/*System.out.println("\ntestGetSuperheroeCercanosAltura");
+		System.out.println("\ntestGetSuperheroeCercanosAltura");
 		System.out.println("=================================");
-		testGetSuperheroeCercanosAltura(superheroes2, 210.0, 2.0);
-		testGetSuperheroeCercanosAltura(superheroes2, 150.0, 5.0);
+		testGetSuperheroeCercanosAltura(superheroes_prueba, 210.0, 2.0);
+		testGetSuperheroeCercanosAltura(superheroes_prueba, 150.0, 5.0);
 		
 		
 		System.out.println("\ntestGetSuperheroePorCreador");
 		System.out.println("===============================");
-		testGetSuperheroePorCreador(superheroes2);
+		testGetSuperheroePorCreador(superheroes_prueba);
 		
 		System.out.println("\ntestGetNumeroSuperheroePorAño");
 		System.out.println("===============================");
-		testGetNumeroSuperheroePorAño(superheroes2);
-		*/
-		
-		System.out.println("\nEntrega 3");
-		
-		
-		System.out.println("\ntestGetMediaPuntuajeAñoStream");
-		System.out.println("===============================");
-		testGetMediaPuntuajeAñoStream(superheroes, 1969);
-		testGetMediaPuntuajeAñoStream(superheroes, 1986);
-		testGetMediaPuntuajeAñoStream(superheroes, 2010);
-		
-		System.out.println("\ntestExisteSuperheroePosicionamientoRazaStream");
-		System.out.println("===============================================");
-		testExisteSuperheroePosicionamientoRazaStream(superheroes, Posicionamiento.GOOD, Raza.ALIEN);
-		testExisteSuperheroePosicionamientoRazaStream(superheroes, Posicionamiento.BAD, Raza.METAHUMAN);
-		testExisteSuperheroePosicionamientoRazaStream(superheroes, Posicionamiento.NEUTRAL, Raza.OTHER);
-		
-		/*System.out.println("\ntestGetSuperheroeCercanosAlturaStream");
-		System.out.println("=======================================");
-		testGetSuperheroeCercanosAlturaStream(superheroes2, 210.0, 2.0);
-		testGetSuperheroeCercanosAlturaStream(superheroes2, 150.0, 5.0);*/
-		
-		System.out.println("\ntestGetSupeheroeMayorPuntuajeMedioPosicionamientoStream");
-		System.out.println("================================================================");
-		testGetSupeheroeMayorPuntuajeMedioPosicionamientoStream(superheroes, Posicionamiento.GOOD);
-		testGetSupeheroeMayorPuntuajeMedioPosicionamientoStream(superheroes, Posicionamiento.BAD);
-		testGetSupeheroeMayorPuntuajeMedioPosicionamientoStream(superheroes, Posicionamiento.NEUTRAL);
-		
-		System.out.println("\ntestGetNSuperheroesMayorPuntuajeMedioCreador");
-		System.out.println("==============================================");
-		testGetNSuperheroesMayorPuntuajeMedioCreador(superheroes, Creador.MARVEL_COMICS, 3);
-		
+		testGetNumeroSuperheroePorAño(superheroes_prueba);	
 	}
 
 	
-	public static void testExisteSuperheroePosicionamientoRaza(Superheroes superheroes, Posicionamiento p, Raza r) {
+	public static void testExisteSuperheroeRazaTelepatiaInmortal(Superheroes superheroes, Raza r) {
 		
 		try {
-			String msg = "¿Existe algún superhéroe cuyo Posicionamiento sea " + p + " y su "
-					+ "Raza sea " + r + "?: " + superheroes.existeSuperheroePosicionamientoRaza(p, r);
+			String msg = "¿Existe algún superhéroe cuya Raza sea " + r + " y además tenga telepatia e "
+					+ "inmortabilidad?: " + superheroes.existeSuperheroeRazaTelepatiaInmortal(r);
 			System.out.println(msg);
 		}catch (Exception e){
 			System.err.println("Capturada excepción inesperada: " + e.getMessage());
@@ -127,65 +94,5 @@ public class TestSuperheroes {
 	}
 	
 	
-	//Entrega 3
-	//Test del Bloque I
-	
-	public static void testExisteSuperheroePosicionamientoRazaStream(Superheroes superheroes, Posicionamiento p, Raza r) {
 		
-		try {
-			String msg = "¿Existe algún superhéroe cuyo Posicionamiento sea " + p + " y su "
-					+ "Raza sea " + r + "?: " + superheroes.existeSuperheroePosicionamientoRazaStream(p, r);
-			System.out.println(msg);
-		}catch (Exception e){
-			System.err.println("Capturada excepción inesperada: " + e.getMessage());
-		}
-		
-	}
-	
-	
-	
-	public static void testGetMediaPuntuajeAñoStream(Superheroes superheroes, Integer year) {
-		try {
-			String msg = "La media del Puntuaje Medio de los superhéroes cuyo año de "
-					+ "creación fue " + year + " es: " + superheroes.getMediaPuntuajeAñoStream(year);
-			System.out.println(msg);
-			
-		}catch (Exception e) {
-			System.err.println("Capturada excepción inesperada: " + e.getMessage());
-		}
-	}
-	
-	public static void testGetSuperheroeCercanosAlturaStream(Superheroes superheroes, Double altura, Double d) {
-		try {
-			String msg = "Los superhéroes cuya altura se encuentra en el intervalo (" +
-		    String.valueOf(altura - d) + ", " +String.valueOf(altura + d) + ") son: " 
-			+ superheroes.getSuperheroeCercanosAlturaStream(altura, d);
-			System.out.println(msg);
-		}catch (Exception e){
-			System.err.println("Capturada excepción inesperada: " + e.getMessage());
-		}
-	}
-	
-	public static void testGetSupeheroeMayorPuntuajeMedioPosicionamientoStream(Superheroes superheroes, Posicionamiento p) {
-		try {
-			String msg = "El/La superhéroe con mayor puntuación de inteligencia cuyo posicionamiento es " + p+ " es: "
-		+ superheroes.getSupeheroeMayorPuntuajeMedioPosicionamiento(p);
-			System.out.println(msg);
-		}catch (Exception e){
-			System.err.println("Capturada excepción inesperada: " + e.getMessage());
-		}
-	
-	}
-	
-	public static void testGetNSuperheroesMayorPuntuajeMedioCreador(Superheroes superheroes, Creador c, Integer n) {
-		try {
-			String msg = "Los " + n + " superhéroes con mayor puntuaje medio cuyo creador es "
-					+ c + " son: " + superheroes.getNSuperheroesMayorPuntuajeMedioCreador(c, n);
-			System.out.println(msg);
-		}catch (Exception e){
-			System.err.println("Capturada excepción inesperada: " + e.getMessage());
-		}
-	}
-	
-	
 }
