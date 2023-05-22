@@ -11,7 +11,7 @@ public class TestSuperheroesStream {
 	public static void main(String[] args) {
 		
 		Superheroes superheroes = FactoriaSuperHeroes.leerSuperheroes("data/superheroes.csv");
-		Superheroes superheroes_prueba = FactoriaSuperHeroes.leerSuperheroes("data/superheroes_prueba.csv");
+		Superheroes superheroes_prueba = FactoriaSuperHeroes.leerSuperheroes("data/superheroesprueba.csv");
 		
 		
 		System.out.println("\nEntrega 3");
@@ -41,7 +41,7 @@ public class TestSuperheroesStream {
 		
 		System.out.println("\ntestGetSuperheroesMayorPuntuajeMedioCreador");
 		System.out.println("==============================================");
-		testGetSuperheroesMayorPuntuajeMedioCreador(superheroes, Creador.MARVEL_COMICS);
+		testGetSuperheroesMayorPuntuajeMedioCreador(superheroes_prueba, Creador.MARVEL_COMICS);
 		
 		System.out.println("\ntestGetSuperheroePorCreadorStream");
 		System.out.println("===============================");
@@ -57,8 +57,8 @@ public class TestSuperheroesStream {
 		
 		System.out.println("\ntestObtenerNSuperheroesMayorAlturaPorRaza");
 		System.out.println("=========================================");
+		testObtenerNSuperheroesMayorAlturaPorRaza(superheroes, 1);
 		testObtenerNSuperheroesMayorAlturaPorRaza(superheroes, 3);
-		testObtenerNSuperheroesMayorAlturaPorRaza(superheroes, 5);
 		
 		System.out.println("\ntestGetMaxContadorPesoPorRaza");
 		System.out.println("========================================");
@@ -177,7 +177,7 @@ public class TestSuperheroesStream {
 	//9
 		public static void testObtenerNSuperheroesMayorAlturaPorRaza(Superheroes superheroes, Integer n) {
 			try {
-				String msg = "El map con los " + n + " superhéroes más altos ordenados por su creador es: " + superheroes.obtenerNSuperheroesMayorAlturaPorRaza(n);
+				String msg = "El map con los " + n + " superhéroes más altos ordenados por su raza es: " + superheroes.obtenerNSuperheroesMayorAlturaPorRaza(n);
 			
 			System.out.println(msg);
 			

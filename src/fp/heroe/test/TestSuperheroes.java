@@ -10,7 +10,7 @@ public class TestSuperheroes {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Superheroes superheroes = FactoriaSuperHeroes.leerSuperheroes("data/superheroes.csv");
-		Superheroes superheroes_prueba = FactoriaSuperHeroes.leerSuperheroes("data/superheroes_prueba.csv");
+		Superheroes superheroes_prueba = FactoriaSuperHeroes.leerSuperheroes("data/superheroesprueba.csv");
 		
 		System.out.println("\ntestExisteSuperheroePosicionamientoRaza");
 		System.out.println("=========================================");
